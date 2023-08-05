@@ -42,3 +42,20 @@ The repository is organized into different folders based on categories or topics
 📁 New_Category
 * 📄 Title_of_Article_5.md
 * ...
+
+## Support
+
+**Contact me @:**
+
+e-mail:
+
+* farzanehkoohestani2000@gmail.com
+
+Telegram id:
+
+* [@farzaneh_koohestani](https://t.me/farzaneh_koohestani)
+
+## License
+[MIT](https://github.com/farkoo/AbstractVault/blob/master/LICENSE)
+&#0169; 
+[Farzaneh Koohestani](https://github.com/farkoo)
