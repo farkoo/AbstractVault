@@ -23,25 +23,6 @@ I encourage contributions from the community to enrich the repository with more 
 - Avoid excessive technical jargon, but ensure the content is informative and accurately represents the original article.
 - Include the title, authors, and publication details of the original article at the beginning of the abstract.
 
-## Folder Structure
-
-The repository is organized into different folders based on categories or topics. If you don't find a suitable category for your contribution, feel free to create a new one.
-
-📁 Category 1
-* 📄 Title_of_Article_1.md
-* 📄 Title_of_Article_2.md
-* ...
-
-  
-📁 Category 2
-* 📄 Title_of_Article_3.md
-* 📄 Title_of_Article_4.md
-* ...
-
-  
-📁 New_Category
-* 📄 Title_of_Article_5.md
-* ...
 
 ## Support
 
