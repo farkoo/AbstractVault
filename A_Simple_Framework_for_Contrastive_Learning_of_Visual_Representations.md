@@ -1,6 +1,7 @@
 # A Simple Framework for Contrastive Learning of Visual Representations
-https://arxiv.org/abs/2002.05709
-https://arxiv.org/abs/2002.05709
+
+[Link to the article](https://arxiv.org/abs/2002.05709)
+
 ## Purpose: 
 The purpose of the simCLR framework is to learn representations that capture meaningful and useful features from the input data, which can be effectively utilized for downstream tasks such as classification.
 
