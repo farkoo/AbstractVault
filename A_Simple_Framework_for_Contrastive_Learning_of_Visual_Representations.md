@@ -7,7 +7,7 @@ The purpose of the simCLR framework is to learn representations that capture mea
 
 ## Phases:
 ### (1) Data Augmentation Pipeline:
-In this phase, a data augmentation pipeline is employed to apply a series of random transformations to the input images. The methods include **random crop** (with resize and random flip), **random color distortion**, and **random Gaussian blur**. Despite the seemingly limited set of operations, these augmentations create diverse views of each image, contributing to the model's ability to learn more robust and generalizable features.
+In this phase, a data augmentation pipeline is employed to apply a series of random transformations to the input images. The methods include **random crop** (with resize and random flip), **random color distortion**, and **random Gaussian blur**. Notably, two of these augmentation methods are randomly selected and applied to each image during training. Despite the seemingly limited set of operations, these augmentations create diverse views of each image, contributing to the model's ability to learn more robust and generalizable features.
 
 ### (2) Neural Network Mapping:
 The second phase focuses on mapping the augmented images to latent representations. The authors adopt a neural network base encoder denoted as `f(·)`, which extracts representation vectors from the augmented data examples. The ResNet architecture is commonly used as the base encoder. The output of the encoder, denoted as `h`, is passed through a projection head `g(.)` to obtain a lower-dimensional feature vector `z`. The projection head, comprising one or more fully connected layers with non-linear activation functions, reduces the dimensionality of the feature vector while preserving crucial information. The primary objective is to ensure that the learned representations are invariant to data augmentation.
@@ -36,6 +36,7 @@ In the simCLR method, only two augmented images are created for each original im
     
 ## Conclusion:
 The simCLR framework presents an effective self-supervised learning approach in computer vision. By combining data augmentation, neural network mapping, and contrastive loss, simCLR successfully learns informative visual representations from large-scale unlabeled datasets. These learned representations can be leveraged for various downstream tasks such as image classification, even in scenarios with limited labeled data during training.
+Using the fixed representations learned by SimCLR as training signals, a test accuracy of 64% is achieved, demonstrating the effectiveness of the learned features. In comparison, performing PCA on the training data and keeping the most important principal components results in a significantly lower test accuracy of only 36%. This stark contrast highlights the superior quality of the features learned by the SimCLR framework.
 
 ## Implementation
 * https://github.com/sthalles/SimCLR
