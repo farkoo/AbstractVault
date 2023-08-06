@@ -36,3 +36,7 @@ In the simCLR method, only two augmented images are created for each original im
     
 ## Conclusion:
 The simCLR framework presents an effective self-supervised learning approach in computer vision. By combining data augmentation, neural network mapping, and contrastive loss, simCLR successfully learns informative visual representations from large-scale unlabeled datasets. These learned representations can be leveraged for various downstream tasks such as image classification, even in scenarios with limited labeled data during training.
+
+## Implementation
+* https://github.com/sthalles/SimCLR
+* https://github.com/sthalles/SimCLR-tensorflow
