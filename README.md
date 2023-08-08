@@ -4,11 +4,10 @@ Welcome to the Article Abstracts Repository! This repository serves as a collect
 The goal of this repository is to provide concise yet informative overviews of the articles, making it easier for researchers and enthusiasts to quickly grasp the key insights and findings from the original works.
 
 ## Table of Contents
-* A Simple Framework for Contrastive Learning of Visual Representations
-* CrossViT: Cross-Attention Multi-Scale Vision Transformer for Image Classification
-* Efficient hyperparameter optimization through model-based reinforcement learning
-* UNETR: Transformers for 3D Medical Image Segmentation
-
+* [A Simple Framework for Contrastive Learning of Visual Representations](https://github.com/farkoo/AbstractVault/blob/master/A_Simple_Framework_for_Contrastive_Learning_of_Visual_Representations.md)
+* [CrossViT: Cross-Attention Multi-Scale Vision Transformer for Image Classification](https://github.com/farkoo/AbstractVault/blob/master/CrossViT_Cross-Attention_Multi-Scale_Vision_Transformer_for_Image_Classification.md)
+* [Efficient hyperparameter optimization through model-based reinforcement learning](https://github.com/farkoo/AbstractVault/blob/master/Efficient_Hyperparameter_Optimization_Through_Model-based_Reinforcement_Learning.md)
+* [UNETR: Transformers for 3D Medical Image Segmentation](https://github.com/farkoo/AbstractVault/blob/master/UNETR_Transformers_for_3D_Medical_Image_Segmentation.md)
 
 
 ## How to Contribute
