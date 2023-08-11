@@ -1,5 +1,7 @@
 # Swin-Unet Unet-like Pure Transformer for Medical Image Segmentation
 
+[Link to the article](https://arxiv.org/abs/2105.05537)
+
 The purpose of Swin-Unet is to propose a new architecture for medical image segmentation tasks. Swin-Unet is based on the Swin Transformer network, which is a pure transformer-based architecture for image classification and segmentation tasks. Swin-Unet combines the Swin Transformer network with the U-Net architecture to capture both local and global features of the input image. 
 
 Swin-Unet is composed of an encoder, bottleneck, decoder, and skip connections, as shown in Figure 1. The encoder, bottleneck, and decoder are all constructed based on the Swin Transformer block. The Swin Transformer block is a hierarchical Transformer architecture that uses shifted windows to capture global and long-range semantic information interaction. 
@@ -49,3 +51,6 @@ In the Swin Transformer block, local and global features are diffused through a 
 Multi-head self-attention involves computing multiple sets of query, key, and value vectors for each position in the input feature map. Each set of vectors is called a "head" of self-attention. The outputs of each head are concatenated and passed through a linear layer to produce the final output of the self-attention operation. 
 
 By computing multiple heads of self-attention, the Swin Transformer block can capture different aspects of the input feature map, including both local and global features. The outputs of each head are then combined to produce a final output that contains information from all heads. 
+
+## Official Implementation
+https://github.com/HuCaoFighting/Swin-Unet
