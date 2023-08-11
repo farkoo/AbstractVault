@@ -8,7 +8,7 @@ The goal of this repository is to provide concise yet informative overviews of t
 * [CrossViT: Cross-Attention Multi-Scale Vision Transformer for Image Classification](https://github.com/farkoo/AbstractVault/blob/master/CrossViT_Cross-Attention_Multi-Scale_Vision_Transformer_for_Image_Classification.md)
 * [Efficient hyperparameter optimization through model-based reinforcement learning](https://github.com/farkoo/AbstractVault/blob/master/Efficient_Hyperparameter_Optimization_Through_Model-based_Reinforcement_Learning.md)
 * [UNETR: Transformers for 3D Medical Image Segmentation](https://github.com/farkoo/AbstractVault/blob/master/UNETR_Transformers_for_3D_Medical_Image_Segmentation.md)
-
+* [Swin-Unet Unet-like Pure Transformer for Medical Image Segmentation](https://github.com/farkoo/AbstractVault/blob/master/Swin-Unet_Unet-like_Pure_Transformer_for_Medical_Image_Segmentation.md)
 
 ## How to Contribute
 
