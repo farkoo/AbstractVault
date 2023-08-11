@@ -8,6 +8,12 @@ The encoder extracts features from the input image, the bottleneck further compr
 
 ## Architecture overview
 
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Swin-Unet%20Architecture.png">
+  <br>
+  <em>Figure 1: Swin-Unet Architecture</em>
+</p>
+
 ### 1. Encoder
 The encoder in Swin-Unet is based on the Swin Transformer network, which is a pure transformer-based architecture for image classification and segmentation tasks. The Swin Transformer network uses a hierarchical architecture with shifted windows to extract context features from the input image. The Swin Transformer network also uses self-attention mechanisms to capture both local and global features of the input image.
 
@@ -19,6 +25,13 @@ The decoder in Swin-Unet is based on the U-Net architecture, which is a popular 
 
 
 ## Swin Transformer block
+
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Swin%20Transformer%20Block.png">
+  <br>
+  <em>Figure 2: Swin Transformer Block</em>
+</p>
+
 The Swin Transformer block is a building block of the Swin Transformer network, which is a pure transformer-based architecture for image classification and segmentation tasks. The Swin Transformer block is constructed based on shifted windows and is composed of several layers, including **LayerNorm (LN) layer**, **multi-head self-attention (MSA) module**, **residual connection**, and a **two-layer MLP with GELU non-linearity**. 
 * The **LayerNorm (LN) layer** is responsible for normalizing the input feature maps across the channel dimension. This process helps to reduce the internal covariate shift and to improve the stability and convergence of the network during training.
 
