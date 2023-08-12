@@ -9,6 +9,7 @@ The goal of this repository is to provide concise yet informative overviews of t
 * [Efficient hyperparameter optimization through model-based reinforcement learning](https://github.com/farkoo/AbstractVault/blob/master/Efficient_Hyperparameter_Optimization_Through_Model-based_Reinforcement_Learning.md)
 * [UNETR: Transformers for 3D Medical Image Segmentation](https://github.com/farkoo/AbstractVault/blob/master/UNETR_Transformers_for_3D_Medical_Image_Segmentation.md)
 * [Swin-Unet Unet-like Pure Transformer for Medical Image Segmentation](https://github.com/farkoo/AbstractVault/blob/master/Swin-Unet_Unet-like_Pure_Transformer_for_Medical_Image_Segmentation.md)
+* [SwinIR: Image Restoration Using Swin Transformer](https://github.com/farkoo/AbstractVault/blob/master/SwinIR_Image_Restoration_Using_Swin_Transformer.md)
 
 ## How to Contribute
 
