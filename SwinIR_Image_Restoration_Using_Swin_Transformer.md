@@ -33,11 +33,6 @@ The Residual Swin Transformer Block (RSTB) in the deep feature extraction module
 
 The residual connection in the RSTB allows the module to capture the residual information between the input and output of the block. This residual connection helps to improve the performance of the module by allowing it to capture the difference between the input and output features. By capturing this residual information, the RSTB is able to learn more effective representations of the input image, which can lead to better performance in image restoration tasks.
 
-## Experiments
-* Classical Image Super-Resolution
-* Image Denoising
-* JPEG Compression Artifact Reduction
-
 ## Ablation Study 
 <p align="center">
   <img src="https://github.com/farkoo/AbstractVault/blob/master/SwinIR_Ablation.png">
@@ -45,6 +40,11 @@ The residual connection in the RSTB allows the module to capture the residual in
   <em>Figure 3: Ablation Study</em>
 </p>
 
+## Experiments
+* Classical Image Super-Resolution
+* Image Denoising
+* JPEG Compression Artifact Reduction
+  
 ## Official Implementation
 -  https://github.com/JingyunLiang/SwinIR
 
