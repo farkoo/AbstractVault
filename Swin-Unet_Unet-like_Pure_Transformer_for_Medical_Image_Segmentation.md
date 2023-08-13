@@ -56,7 +56,7 @@ Multi-head self-attention involves computing multiple sets of query, key, and va
 
 By computing multiple heads of self-attention, the Swin Transformer block can capture different aspects of the input feature map, including both local and global features. The outputs of each head are then combined to produce a final output that contains information from all heads. 
 
-<br />
+---------------------------------------------------------------------------------
 * Patch Partition: In the Swin Transformer network, the input image is divided into non-overlapping patches of a fixed size. This process is called patch partitioning, and it is performed to reduce the computational complexity of the network and to enable the use of self-attention mechanisms on large images.
 
 * Linear Embedding: After the patches are extracted, a linear embedding layer is applied to project the feature dimension into an arbitrary dimension represented as C. This process is performed to transform the patch tokens into a higher-dimensional space, which allows the network to capture more complex features.
