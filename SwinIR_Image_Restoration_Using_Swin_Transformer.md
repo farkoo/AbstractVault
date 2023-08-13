@@ -38,6 +38,13 @@ The residual connection in the RSTB allows the module to capture the residual in
 * Image Denoising
 * JPEG Compression Artifact Reduction
 
+## Ablation Study 
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/SwinIR_Ablation.png">
+  <br>
+  <em>Figure 3: Ablation Study</em>
+</p>
+
 ## Official Implementation
 -  https://github.com/JingyunLiang/SwinIR
 
