@@ -1,4 +1,5 @@
 # ColonFormer: An Efficient Transformer-based Method for Colon Polyp Segmentation
+[Link to the article](https://arxiv.org/abs/2205.08473)
 
 Colon polyp segmentation is crucial for detecting and preventing colorectal cancer. These abnormal colon growths can turn cancerous if untreated. While colonoscopy effectively identifies and removes polyps, its time-consuming nature and dependence on skilled professionals necessitate the development of a precise computer-aided diagnosis system. This system would enhance colonoscopy efficiency and decrease the risk of colorectal cancer.
 
@@ -94,3 +95,14 @@ In this experiment, the authors perform cross-dataset evaluation with three trai
 - CVC-ClinicDB for training, ETIS-Larib for testing
 
 The authors report the results in terms of mIoU and DSC metrics.
+
+## Metrics
+* mIoU stands for mean Intersection over Union, which is a measure of the overlap between the predicted segmentation and the ground truth segmentation. It is calculated as the average of the Intersection over Union (IoU) scores for all classes. IoU is the ratio of the intersection between the predicted segmentation and the ground truth segmentation to the union of the two.
+
+* DSC stands for Dice Similarity Coefficient, which is another measure of the overlap between the predicted segmentation and the ground truth segmentation. It is calculated as twice the intersection between the predicted segmentation and the ground truth segmentation divided by the sum of the areas of the two.
+
+
+Both mIoU and DSC range from 0 to 1, with higher values indicating better segmentation performance.
+
+## Official Implementation
+https://github.com/ducnt9907/ColonFormer
