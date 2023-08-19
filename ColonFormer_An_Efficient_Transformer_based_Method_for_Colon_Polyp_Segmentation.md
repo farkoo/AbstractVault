@@ -4,7 +4,6 @@
 Colon polyp segmentation is crucial for detecting and preventing colorectal cancer. These abnormal colon growths can turn cancerous if untreated. While colonoscopy effectively identifies and removes polyps, its time-consuming nature and dependence on skilled professionals necessitate the development of a precise computer-aided diagnosis system. This system would enhance colonoscopy efficiency and decrease the risk of colorectal cancer.
 
 ## ColonFormer Architecture
- image
  * Encoder
  * Decoder
  * Refinement Module
@@ -15,8 +14,6 @@ The encoder in ColonFormer is a hierarchically structured lightweight Transforme
 **1. Mix Transformer (MiT) Blocks** <br />
 
 The encoder uses Mix Transformer (MiT) blocks, which are hierarchical Transformer blocks that can represent both high-resolution coarse and low-resolution fine features. The MiT blocks contain three main parts: **Multi-head Self-Attention (MHSA) layers**, **Feed Forward Network (FFN)**, and **Layer Norm**. The MHSA layers capture long-range dependencies between features, while the FFN applies non-linear transformations to the features. The Layer Norm normalizes the features to improve the stability of the training process.
-
----------- Mit image
 
 **2. Overlapping Patch Merging** <br />
 
