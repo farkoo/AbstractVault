@@ -66,3 +66,31 @@ The CA module is applied last to capture the inter-channel dependencies of the f
 **5. Deep supervision** <br/>
 Deep supervision is used during training with the Refinement Module to improve the training process. The Refinement Module produces three refined maps: the global map and two intermediate maps. These maps are passed into the training loss in a deep supervision manner, which means that the loss is calculated for each of the three maps separately.
    
+## Loss Function
+The loss function in ColonFormer is designed to optimize the network parameters and produce an accurate segmentation of polyps in endoscopic images. The loss function consists of two main parts: a weighted focal loss and a weighted IoU loss.
+
+- The weighted focal loss is used to address the class imbalance problem in polyp segmentation. The class imbalance problem arises because polyps are rare objects in endoscopic images, and the majority of the image pixels belong to the background. The weighted focal loss assigns higher weights to the minority class (polyps) and lower weights to the majority class (background) to balance the contribution of each class to the loss function.
+
+- The weighted IoU loss is used to measure the similarity between the predicted segmentation and the ground truth segmentation. The IoU (Intersection over Union) is a common metric used in image segmentation tasks to measure the overlap between the predicted segmentation and the ground truth segmentation. The weighted IoU loss assigns higher weights to the pixels that are more important for accurate segmentation and lower weights to the pixels that are less important.
+
+The total loss of ColonFormer is calculated as the sum of the weighted focal loss and the weighted IoU loss.
+
+## Experiments
+The authors perform experiments on five popular datasets for polyp segmentation: Kvasir, CVC-Clinic DB, CVC-Colon DB, CVC-T, and ETIS-Larib Polyp DB. 
+
+The experiments are divided into three parts:
+
+**1. Comparison with State-of-the-Art Methods** <br/>
+In this experiment, the authors compare the performance of ColonFormer with state-of-the-art CNN-based and Transformer-based networks using the same widely-used dataset configuration as suggested in [23]. The authors report the results in terms of mean Intersection over Union (mIoU) and Dice Similarity Coefficient (DSC) metrics.
+
+**2. 5-Fold Cross-Validation** <br/>
+In this experiment, the authors perform 5-fold cross-validation on the CVC-ClinicDB and Kvasir datasets. Each dataset is divided into five equal folds. Each run uses one fold for testing and four remaining folds for training. The authors report the results in terms of mIoU and DSC metrics.
+
+**3. Experiment 3: Cross-Dataset Evaluation** <br/>
+In this experiment, the authors perform cross-dataset evaluation with three training-testing configurations:
+
+- CVC-ColonDB and ETIS-Larib for training, CVC-ClinicDB for testing
+- CVC-ColonDB for training, CVC-ClinicDB for testing
+- CVC-ClinicDB for training, ETIS-Larib for testing
+
+The authors report the results in terms of mIoU and DSC metrics.
