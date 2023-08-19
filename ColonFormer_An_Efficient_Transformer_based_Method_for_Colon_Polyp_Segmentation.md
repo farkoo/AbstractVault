@@ -17,8 +17,10 @@ The encoder uses Mix Transformer (MiT) blocks, which are hierarchical Transforme
 
 ---------- Mit image
 
-2. Overlapping Patch Merging <br />
+**2. Overlapping Patch Merging** <br />
+
 The duty of Overlapping Patch Merging in the encoder of ColonFormer is to divide the feature map into overlapping patches and merge them to ensure local continuity around those patches. This process helps to capture both local and global context information in the input image. The overlapping patches are merged with a kernel that has a stride smaller than the kernel size, which ensures that the local continuity around the patches is preserved.
+
 
 These multi-level features are then passed to the decoder for further processing. 
 
