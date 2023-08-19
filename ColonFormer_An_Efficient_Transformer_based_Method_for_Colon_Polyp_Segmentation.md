@@ -27,14 +27,18 @@ These multi-level features are then passed to the decoder for further processing
 ### Decoder 
 The decoder in ColonFormer is designed to gradually fuse the prior global map produced by the Pyramid Pooling Module (PPM) with multi-scale feature maps yielded by the MiT backbone. The decoder is based on the UPer Decoder architecture, which is inspired by the U-Net architecture and has been shown to be effective for semantic segmentation tasks.
 
-1. Pyramid Pooling Module (PPM)
+**1. Pyramid Pooling Module (PPM)** <br/>
+
 The PPM is used to extract multi-scale features from the final block of the encoder. It produces a pyramid of pooling layers that simultaneously produce multi-scale outputs of the input feature map. The resulting feature maps, which form a hierarchy of features containing information at different scales and sub-regions, are then concatenated to produce an efficient prior global representation.
 
-2. UPer Decoder architecture
+**2. UPer Decoder architecture** <br/>
+
 The UPer Decoder architecture consists of a series of decoder blocks that gradually upsample the feature maps and fuse them with the prior global map produced by the PPM. Each decoder block consists of two main parts: a decoder block that upsamples the feature maps and a refinement module that refines the boundary of polyp objects in the global map for accurate segmentation. The refinement module uses a new skip connection technique to improve the accuracy of the segmentation.
 
-3. Convolutional Layers
+**3. Convolutional Layers** <br/>
+
 ColonFormer also uses convolutional layers to condense the information by emphasizing the coherence between neighboring elements and thus enhancing the resulting semantic map. This is important for accurately segmenting polyps in endoscopic images.
+
 
 Overall, the decoder in ColonFormer is designed to capture global context information and fuse it with the multi-scale feature maps produced by the encoder to produce an accurate segmentation of polyps in endoscopic images.
 
@@ -47,18 +51,18 @@ In addition to the refinement blocks, the refinement module also uses a deep sup
 
 The Refinement Module in ColonFormer consists of three modules: the Attention Refinement (AR) module, the Spatial Attention (SA) module, and the Channel Attention (CA) module. The order in which these modules are applied is as follows:
 
-1. Channel-wise Feature Pyramid (CFP) module
+**1. Channel-wise Feature Pyramid (CFP) module** <br/>
 The CFP module is used to extract features from the encoder in multi-scale views before the Refinement Module.
 
-2. Attention Refinement (AR) module
+**2. Attention Refinement (AR) module** <br/>
 The AR module is applied first to capture the global context information of the feature maps and refine the feature maps by recalibrating the channel-wise feature responses.
 
-3. Spatial Attention (SA) module
+**3. Spatial Attention (SA) module** <br/>
 The SA is applied next to capture the spatial dependencies between different regions of the feature maps and refine the feature maps by recalibrating the spatial feature responses.
 
-4. Channel Attention (CA) module
+**4. Channel Attention (CA) module** <br/>
 The CA module is applied last to capture the inter-channel dependencies of the feature maps and refine the feature maps by recalibrating the channel-wise feature responses.
 
-5. Deep supervision
+**5. Deep supervision** <br/>
 Deep supervision is used during training with the Refinement Module to improve the training process. The Refinement Module produces three refined maps: the global map and two intermediate maps. These maps are passed into the training loss in a deep supervision manner, which means that the loss is calculated for each of the three maps separately.
    
