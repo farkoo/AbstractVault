@@ -6,6 +6,10 @@ PET image reconstruction is the process of creating a 3D image of the distributi
 ## TransEM Architecture
 The overall architecture of the residual swin-transformer based regularizer (RSTR) consists of a residual block with a Swin Transformer Layer (STL) and two convolutional layers. The RSTR is used as a regularizer in the ML-EM iterative framework to reconstruct standard-dose images from low count sinograms.
 
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/TransEM_architecture.png">
+</p>
+
 ### Maximum Likelihood Expectation Maximization (ML-EM)
 EM stands for Expectation-Maximization, which is an iterative algorithm used in PET image reconstruction. The EM algorithm is a model-based approach that models the physical properties of the imaging system and the statistical properties of the measured data. 
 The algorithm iteratively estimates the image and the system parameters by alternating between two steps: the E-step and the M-step. In the E-step, the algorithm estimates the probability distribution of the hidden variables (i.e., the image) given the measured data and the current estimate of the system parameters. In the M-step, the algorithm updates the estimate of the system parameters based on the estimated probability distribution of the hidden variables. The algorithm repeats these two steps until convergence is achieved.
@@ -19,3 +23,17 @@ pixel-to-pixel fusion operations are a key component of the proposed method for 
 
 ## Number of Blocks
 The proposed method for PET image reconstruction is composed of n blocks, where each block contains EM for image updating, RSTR for regularization, and a pixel-to-pixel fusion operation. Due to the limitation of hardware and image size, the number of subsets chosen for the experiment is 6, so the number of unrolled blocks is multiples of six. In the experiment conducted in the paper, the number of unrolled blocks is 60, which achieves the best performance.
+
+## Experiments
+
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/TransEM_1.png">
+</p>
+
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/TransEM_2.png">
+</p>
+
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/TransEM_3.png">
+</p>
