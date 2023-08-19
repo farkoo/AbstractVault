@@ -10,12 +10,12 @@ Colon polyp segmentation is crucial for detecting and preventing colorectal canc
 
 ### Encoder
 The encoder in ColonFormer is a hierarchically structured lightweight Transformer that can learn multi-scale features. The encoder takes the input image and extracts features at multiple scales. Here are the sections of the encoder:
-1. Mix Transformer (MiT) Blocks
+1. Mix Transformer (MiT) Blocks <br />
 The encoder uses Mix Transformer (MiT) blocks, which are hierarchical Transformer blocks that can represent both high-resolution coarse and low-resolution fine features. The MiT blocks contain three main parts: **Multi-head Self-Attention (MHSA) layers**, **Feed Forward Network (FFN)**, and **Layer Norm**. The MHSA layers capture long-range dependencies between features, while the FFN applies non-linear transformations to the features. The Layer Norm normalizes the features to improve the stability of the training process.
 
 ---------- Mit image
 
-2. Overlapping Patch Merging
+2. Overlapping Patch Merging <br />
 The duty of Overlapping Patch Merging in the encoder of ColonFormer is to divide the feature map into overlapping patches and merge them to ensure local continuity around those patches. This process helps to capture both local and global context information in the input image. The overlapping patches are merged with a kernel that has a stride smaller than the kernel size, which ensures that the local continuity around the patches is preserved.
 
 These multi-level features are then passed to the decoder for further processing. 
