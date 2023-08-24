@@ -1,7 +1,7 @@
 # Awesome Image Enhancement
 
 | Year |	Proceeding	| Title | PDF | Code |
-| --- | --- | --- | --- | --- |
+| :---: | :---: | :---: | :---: | :---: |
 | 2022 | ICPR | DocEnTr: An End-to-End Document Image Enhancement Transformer | [Click Here](https://arxiv.org/pdf/2201.10252.pdf) | [Click Here](https://github.com/dali92002/DocEnTR)
 | 2023 | MDPI | Unsupervised Low Light Image Enhancement Transformer Based on Dual Contrastive Learning | [Click Here](https://bmvc2022.mpi-inf.mpg.de/0373.pdf) | [Click Here](https://github.com/KaedeKK/UDCL-Transformer)
 | 2023 | MDPI | Low-Light Image Enhancement by Combining Transformer and Convolutional Neural Network | [Click Here](https://www.mdpi.com/2227-7390/11/7/1657/pdf?version=1680159122) | [Click Here]()
