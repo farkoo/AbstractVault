@@ -13,6 +13,17 @@
 | 2022 | CoRR | Low-Light Image and Video Enhancement: A Comprehensive Survey and Beyond | [Click Here](https://arxiv.org/pdf/2212.10772.pdf) | [Click Here] |
 | 2021 | Springer | Benchmarking Low-Light Image Enhancement and Beyond | [Click Here](https://sci-hub.se/10.1007/s11263-020-01418-8) | [Click Here] |
 | 2021 | IEEE Trans | Low-Light Image and Video Enhancement Using Deep Learning: A Survey | [Click Here](https://arxiv.org/pdf/2104.10729) | [Click Here] |
+| 2022 | IEEE Trans | Underwater Image Enhancement via Minimal Color Loss and Locally Adaptive Contrast Enhancement | [Click Here](https://drive.google.com/file/d/1d8gLKDPoxISy6-oVc6bQJZ-sElmNDPbB/view) | [Click Here]() |
+| 2022 | IEEE Trans(TPAMI ) | Learning Enriched Features for Fast Image Restoration and Enhancement | [Click Here](https://arxiv.org/pdf/2205.01649) | [Click Here](https://github.com/swz30/MIRNetv2) |
+| 2020 | ECCV | Learning Enriched Features for Real Image Restoration and Enhancement | [Click Here](https://arxiv.org/pdf/2003.06792v2.pdf) | [Click Here](https://github.com/swz30/MIRNet) |
+| 2020 | CVPR | Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement | [Click Here](https://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_Zero-Reference_Deep_Curve_Estimation_for_Low-Light_Image_Enhancement_CVPR_2020_paper.pdf) | [Click Here](https://github.com/Li-Chongyi/Zero-DCE) |
+|  |  |  | [Click Here]() | [Click Here]() |
+|  |  |  | [Click Here]() | [Click Here]() |
+|  |  |  | [Click Here]() | [Click Here]() |
+|  |  |  | [Click Here]() | [Click Here]() |
+|  |  |  | [Click Here]() | [Click Here]() |
+
+|  |  |  | [Click Here]() | [Click Here]() |
 
 
 
