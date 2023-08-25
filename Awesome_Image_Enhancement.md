@@ -24,7 +24,7 @@
 | 2022 | IEEE Trans | twin adversarial contrastive learning for underwater image enhancement and beyond | [Click Here](https://drive.google.com/file/d/1rAQVj1RamqHI0OefUTnAeqV6vNFdAm0S/view) | [Click Here](https://github.com/Jzy2017/TACL) |
 |  |  |  | [Click Here]() | [Click Here]() |
 
---------------------------------------------------------------------------------------------------------
+<br>
 ## Learning a Simple Low-light Image Enhancer from Paired Low-light Instances CVPR2023
 
 **Purpose:** The purpose of this paper is to introduce PairLIE, an unsupervised approach for low-light image enhancement that learns adaptive priors from low-light image pairs. The paper aims to improve contrast and restore details for images captured in low-light conditions.
@@ -51,7 +51,8 @@
   <br>
   <em>PairLIE Results</em>
 </p>
---------------------------------------------------------------------------------------------------------
+
+<br>
 ## Burstormer Burst Image Restoration and Enhancement Transformer CVPR2023
 
 **Method:** Burstormer is a novel transformer-based architecture for burst image restoration and enhancement. It leverages multi-scale local and non-local features to achieve improved alignment and feature fusion. The proposed method consists of two main parts: enhanced deformable alignment (EDA) and image reconstruction. EDA is a multi-scale hierarchical module that extracts noise-free local and non-local features with the burst feature attention (BFA), performs feature alignment, and refines and consolidates features with an additional interaction with the base frame via the proposed reference-based feature enrichment (RBFE) module. The input burst frames need to be properly aligned before fusing their information. Therefore, the proposed alignment module not only aligns burst features but also exchanges feature information and maintains focused communication with the reference frame through the proposed reference-based feature enrichment mechanism, which facilitates handling complex motions. Burstormer sets new state-of-the-art on several real and synthetic benchmark datasets for the task of *burst super-resolution*, *burst low-light enhancement*, and *burst denoising*.
@@ -88,7 +89,8 @@
   <br>
   <em>Grayscale and Color Burst Denoising</em>
 </p>
---------------------------------------------------------------------------------------------------------
+
+<br>
 ## SNR-Aware Low-light Image Enhancement CVPR2022
 
 **Method:** The SNR-Aware Low-light Image Enhancement method uses a signal-to-noise-aware framework consisting of a new SNR-aware transformer design and a convolutional model to adaptively enhance low-light images in a spatial-varying manner. The method first obtains an SNR map using a simple and yet effective strategy, which estimates the Signal-to-Noise Ratio (SNR) of the input low-light image. The SNR map is then used to guide the framework to learn different enhancement operations adaptively for image regions of varying signal-to-noise ratios. In the deepest hidden layer of the framework, a new self-attention module is used to enhance pixels in a spatial-varying manner and avoid inaccurate information from regions of very low SNR. The method has been shown to achieve superior perceptual quality and consistently outperform other approaches on seven benchmarks.
@@ -112,7 +114,8 @@
   <br>
   <em>SNR-Aware Low-light Image Enhancement Results</em>
 </p>
---------------------------------------------------------------------------------------------------------
+
+<br>
 ## Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement CVPR2020
 
 **Methos:** It does not require any paired or unpaired data in the training process, and it is trained without any reference image. Instead of performing image-to-image mapping, the task is reformulated as an image-specific curve estimation problem. The proposed method takes a low-light image as input and produces high-order curves as its output. These curves are then used for pixel-wise adjustment on the dynamic range of the input to obtain an enhanced image. The curve estimation is carefully formulated so that it maintains the range of the enhanced image and preserves the contrast of neighboring pixels.
@@ -132,7 +135,8 @@
   <br>
   <em>Zero-DCE Results</em>
 </p>
--------------------------------------------------------------------------------------------------------------------------------
+
+<br>
 ## Self-Reference Deep Adaptive Curve Estimation for Low-Light Image Enhancement
 
 **Method:** Self-DACE (Self-Reference Deep Adaptive Curve Estimation) is a 2-stage low-light image enhancement method proposed in this paper. The method is inspired by the ZeroDCE algorithm and employs a more flexible class of adaptive adjustment curves iteratively to enhance low-light images with a wider dynamic range. The first stage of the method estimates the initial enhancement curve using a self-reference mechanism, while the second stage refines the curve using a denoising scheme. The proposed method is shown to outperform existing state-of-the-art algorithms in terms of quantitative metrics on multiple datasets.
@@ -155,7 +159,8 @@
   <br>
   <em>Self-DICE Results</em>
 </p>
---------------------------------------------------------------------------------------------------------
+
+<br>
 ## Learning Enriched Features for Fast Image Restoration and Enhancement IEEE2022
 
 **Method:** The method presented in this paper is a new architecture for fast image restoration and enhancement. The proposed architecture is based on convolutional neural networks (CNNs) and is designed to maintain spatially-precise high-resolution representations while receiving complementary contextual information from low-resolution representations. 
@@ -203,7 +208,8 @@ The proposed architecture is evaluated on several image restoration tasks, inclu
   <br>
   <em>MIRNet-v2 Super Resolution</em>
 </p>
-----------------------------------------------------------------------------------------------------------------------------------
+
+<br>
 ## Ultra-High-Definition Low-Light Image Enhancement A Benchmark and Transformer-Based Method AAAI2023
 
 **Method:** LLFormer is a transformer-based low-light enhancement method introduced in this PDF file. It uses axis-based multi-head self-attention and cross-layer attention fusion blocks to significantly reduce linear complexity and improve performance on low-light images. LLFormer was benchmarked against 16 representative LLIE methods, including seven traditional non-learning methods, and was found to outperform state-of-the-art methods on both a new large-scale database and existing public datasets.
@@ -227,7 +233,8 @@ The proposed architecture is evaluated on several image restoration tasks, inclu
   <br>
   <em>LLFormer Results</em>
 </p>
------------------------------------------------------------------------------------------------------------------------------------
+
+<br>
 ## STAR A Structure-aware Lightweight Transformer for Real-time Image Enhancement ICCV2021
 
 **Method:** The article presents a method called STAR, which is a structure-aware lightweight Transformer for real-time image enhancement. It tokenizes image patches into token embeddings and explicitly learns token-wise dependencies for image patches. STAR is specialized in image enhancement tasks and can be free of stacked convolution, making it more efficient in extracting structural information. It employs a specialized two-branch design named long-short Range Transformer to ensure it can focus on capturing global contexts, thus reducing computations. Experimental results show that STAR can effectively boost the quality and efficiency of many tasks such as illumination enhancement, auto white balance, and photo retouching.
