@@ -125,24 +125,194 @@
 
 ## MAXIM: Multi-Axis MLP for Image Processing CVPR2022
 
+**Method:** The proposed method in this paper is called MAXIM, which is a multi-axis MLP-based architecture for image processing tasks. MAXIM is designed to address the limitations of traditional convolutional neural networks (CNNs) in capturing global context and long-range dependencies in low-level vision tasks. It achieves this by using multi-axis MLP modules within each block to globally aggregate repeated patterns across various scales. MAXIM also incorporates self-attention mechanisms to capture long-range dependencies and efficiently mix local and global visual cues. Experimental results show that MAXIM outperforms state-of-the-art methods in various image restoration and enhancement tasks.
+
+MAXIM is a generic architecture that can be used for a wide range of image processing tasks, including but not limited to *denoising*, *deblurring*, *deraining*, *dehazing*, and *enhancement*. 
+
+**Dataset:**
+* SIDD (Denoising)
+* DND (Denoising)
+* GoPro (Debluring)
+* HIDE (Debluring)
+* RealBlur-J (Debluring)
+* RealBlur-R (Debluring)
+* REDS (Debluring)
+* Rain14000 (Deraining)
+* Rain1800 (Deraining)
+* Rain800 (Deraining)
+* Rain100H (Deraining)
+* Rain100L (Deraining)
+* Rain1200 (Deraining)
+* Rain12 (Deraining)
+* Raindrop (Deraining)
+* RESIDE-ITS (Dehazing)
+* RESIDE-OTS (Dehazing)
+* MIT-Adobe FiveK (Enhancement)
+* LOL (Enhancement)
+
+**Hardware:** Not Mentioned
+
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_MAXIM_Arch.png" alt="MAXIM Architecture">
+  <br>
+  <em>MAXIM Architecture</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_MAXIM_DB.png" alt="MAXIM Debluring">
+  <br>
+  <em>MAXIM Debluring</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_MAXIM_DN.png" alt="MAXIM Denoising">
+  <br>
+  <em>MAXIM Denoising</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_MAXIM_DR_DH.png" alt="MAXIM Deraining and Dehazing">
+  <br>
+  <em>MAXIM Debluring</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_MAXIM_IE.png" alt="MAXIM Enhancement">
+  <br>
+  <em>MAXIM Enhancement</em>
+</p>
 
 ## Abandoning the Bayer-Filter to See in the Dark CVPR2022
+**Method:**
+The proposed method in this paper is a novel pipeline that uses deep neural networks and channel-wise attention to enhance low-light images. The method is motivated by the high light sensitivity of monochrome cameras and aims to introduce extra information beyond the raw-RGB data to achieve better enhancement and denoising visual performance with fewer artifacts and more convincing restoration.
+
+The proposed pipeline consists of three main stages: De-Bayer-Filter simulator, Channel-wise Attention Fusion, and Post-processing. In the first stage, the De-Bayer-Filter simulator generates a monochrome raw image from the input RGB image. In the second stage, the Channel-wise Attention Fusion module fuses the monochrome raw image with the RGB image to generate a high-quality enhanced image. The channel-wise attention mechanism is used to selectively emphasize the informative channels and suppress the noisy channels. In the third stage, the Post-processing module further improves the visual quality of the enhanced image by reducing the artifacts and enhancing the details.
+
+**Dataset:**
+* SID
+* Mono-Colored Raw paired dataset (MCR)
+  
+**Hardware:** One RTX 3090 GPU
+
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_DBLE_Arch.png" alt="DBLE Architecture">
+  <br>
+  <em>DBLE Architecture</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_DBLE_Result.png" alt="DBLE Results">
+  <br>
+  <em>DBLE Results</em>
+</p>
 
 
 ## URetinex-Net: Retinex-based Deep Unfolding Network for Low-light-Image-Enhancement CVPR2022
 
+**Method:** URetinex-Net is a deep learning-based method proposed for low-light image enhancement. It is based on the Retinex theory, which decomposes an image into reflectance and illumination layers. URetinex-Net adapts this decomposition process by formulating it as an implicit priors regularized model and then unfolding the update steps in the optimization into a deep neural network. 
+
+URetinex-Net includes three learnable modules: an initialization module, an unfolding optimization module, and an illumination adjustment module. The initialization module generates the initial reflectance and illumination layers by passing a target low-light image. The unfolding optimization module then refines the reflectance and illumination layers iteratively. Finally, the illumination adjustment module outputs the enhanced normal-light version according to the user-defined ratio.
+
+URetinex-Net has shown to be highly efficient in enhancing low-light images with successfully noise suppressing and details preserving.
+
+**Dataset:**
+* LOL
+* DICE
+* MEF
+
+**Hardware:** NVIDIA Tesla V100 GPU
+
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_URetinex-Net_Arch.png" alt="URetinex-Net Architecture">
+  <br>
+  <em>URetinex-Net Architecture</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_URetinex-Net_Results.png" alt="URetinex-Net Results">
+  <br>
+  <em>URetinex-Net Results</em>
+</p>
 
 ## Toward Fast, Flexible, and Robust Low-Light Image Enhancement CVPR2022
 
+**Method:** The proposed method in this paper is called Self-Calibrated Illumination (SCI) and it is a framework for low-light image enhancement. The framework consists of two main components: a basic unit and an auxiliary process. 
+
+The basic unit is a convolutional neural network (CNN) that takes a low-light image as input and outputs an enhanced image. The auxiliary process is designed to calibrate the illumination of the input image and improve the performance of the basic unit. 
+
+The calibration process involves estimating the illumination map of the input image and using it to adjust the image's exposure. This is done by training a separate CNN to predict the illumination map from the input image. The predicted illumination map is then used to adjust the exposure of the input image before it is fed into the basic unit. 
+
+**Dataset:**
+* MIT
+* LSRW
+* DARK FACE
+* ACDC
+* ExDark
+* WIDER FACE
+
+**Hardware:** One TITAN X GPU
 
 ## Retinex-inspired Unrolling with Cooperative Prior Architecture Search for Low-light Image Enhancement CVPR2021
 
+**Method:** The proposed method, RUAS, first establishes a fundamental network structure based on the Retinex theory and then automatically discovers the embedded atomic prior architectures by unrolling the corresponding optimization processes. RUAS also provides a cooperative bilevel search strategy that can simultaneously discover architectures from a compact search space for both illumination estimation and noise removal. This strategy does not require any paired/unpaired supervisions during the search process. Finally, RUAS offers flexibility in searching prior architectures for different kinds of low-light scenarios. Extensive experiments show that the established enhancement networks are memory and computation efficient and can perform favorably against state-of-the-art approaches.
+
+**Dataset:**
+* MIT-Adobe 5K
+* LOL
+* DarkFace
+* ExtremelyDarkFace
+
+**Hardware:** Single TITAN X GPU and Intel Core i7-7700 3.60GHz CPU
+
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_RUAS_Result.png" alt="RUAS Results">
+  <br>
+  <em>RUAS Results</em>
+</p>
 
 ## Learning Temporal Consistency for Low Light Video Enhancement from Single Images CVPR2021
 
+**Method:** The proposed method in this paper is a frequency-based decomposition-and-enhancement model for enhancing low-light images. The method consists of two stages. In the first stage, the model uses an Attention to Context Encoding (ACE) module to adaptively select low-frequency information for recovering the low-frequency layer and noise removal. In the second stage, the model selects high-frequency information for detail enhancement. The model also uses a Cross Domain Transformation (CDT) module to leverage multi-scale frequency-based features for noise suppression and detail enhancement in the two stages. 
+
+The proposed method is based on the insight that low-light images suffer from two main problems: loss of details and noise. By decomposing the image into low-frequency and high-frequency layers, the model can recover the lost details in the low-frequency layer while suppressing noise. The model can then enhance the high-frequency details in the second stage. 
+
+**Dataset:**
+* sRGB
+
+**Hardware:** An i7 4GHz CPU and a GTX 1080Ti GPU
+
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_DaE_Arch.png" alt="DaE Architecture">
+  <br>
+  <em>DaE Architecture</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_DaE_Result.png" alt="DaE Results">
+  <br>
+  <em>DaE Results</em>
+</p>
 
 ## From Fidelity to Perceptual Quality: A Semi-Supervised Approach for Low-Light Image Enhancement CVPR 2020
 
+**Method:** The proposed method is a deep recursive band network (DRBN) for low-light image enhancement. It is a semi-supervised learning approach that can effectively address the visual degradation caused by under-exposure. The DRBN architecture consists of two stages. In the first stage, the network is trained on paired low/normal-light images to recover a linear band representation. This representation is then used in the second stage to bridge the gap between the restoration knowledge of paired data and the perceptual quality provided by an unpaired high-quality image dataset. The extracted band representations of the enhanced image in the first stage of DRBN are used to recursively refine the image in a coarse-to-fine manner. This approach can be trained with both paired and unpaired data, and it can extract a series of coarse-to-fine band representations that are mutually beneficial in a recursive process. Overall, the proposed method offers a powerful and flexible architecture for low-light image enhancement.
+
+**Dataset:** 
+* LOL-Real
+
+**Hardware:** Not Mentioned 
+
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_DaE_Arch.png" alt="DaE Architecture">
+  <br>
+  <em>DaE Architecture</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_DaE_Result.png" alt="DaE Results">
+  <br>
+  <em>DaE Results</em>
+</p>
 
 ## Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement CVPR2020
 
