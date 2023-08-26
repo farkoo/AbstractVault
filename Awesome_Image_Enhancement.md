@@ -2,13 +2,14 @@
 
 | Year |	Proceeding	| Title | PDF | Code |
 | :---: | :---: | :---: | :---: | :---: |
-| 2022 | CVPR | MAXIM: Multi-Axis MLP for Image Processing | [Click Here](https://arxiv.org/pdf/2201.02973.pdf) | [Click Here](https://github.com/google-research/maxim) |
-| 2022 | CVPR | Abandoning the Bayer-Filter to See in the Dark | [Click Here](https://arxiv.org/pdf/2203.04042.pdf) | [Click Here](https://github.com/TCL-AILab/Abandon_Bayer-Filter_See_in_the_Dark) |
-| 2022 | CVPR | URetinex-Net: Retinex-based Deep Unfolding Network for Low-light-Image-Enhancement | [Click Here](https://openaccess.thecvf.com/content/CVPR2022/papers/Wu_URetinex-Net_Retinex-Based_Deep_Unfolding_Network_for_Low-Light_Image_Enhancement_CVPR_2022_paper.pdf) | [Click Here](https://github.com/AndersonYong/URetinex-Net) |
-| 2022 | CVPR | Toward Fast, Flexible, and Robust Low-Light Image Enhancement | [Click Here](https://arxiv.org/pdf/2204.10137.pdf) | [Click Here](https://github.com/vis-opt-group/SCI) |
-| 2021 | CVPR | Retinex-inspired Unrolling with Cooperative Prior Architecture Search for Low-light Image Enhancement | [Click Here](https://arxiv.org/pdf/2012.05609.pdf) | [Click Here](https://github.com/KarelZhang/RUAS) || 2020 | CVPR | Learning to Restore Low-Light Images via Decomposition-and-Enhancement | [Click Here](https://openaccess.thecvf.com/content_CVPR_2020/papers/Xu_Learning_to_Restore_Low-Light_Images_via_Decomposition-and-Enhancement_CVPR_2020_paper.pdf) | [Click Here](https://drive.google.com/drive/folders/1L3RDbd3sk_TcMTrSmZXn8KLg8opjOjf0) |
-| 2021 | CVPR | Learning Temporal Consistency for Low Light Video Enhancement from Single Images | [Click Here](https://openaccess.thecvf.com/content_CVPR_2020/papers/Xu_Learning_to_Restore_Low-Light_Images_via_Decomposition-and-Enhancement_CVPR_2020_paper.pdf) | [Click Here](https://github.com/zkawfanx/StableLLVE) |
-| 2020 | CVPR | From Fidelity to Perceptual Quality: A Semi-Supervised Approach for Low-Light Image Enhancement | [Click Here](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_From_Fidelity_to_Perceptual_Quality_A_Semi-Supervised_Approach_for_Low-Light_CVPR_2020_paper.pdf) | [Click Here](https://github.com/flyywh/CVPR-2020-Semi-Low-Light) |
+| 2022 | CVPR | [MAXIM: Multi-Axis MLP for Image Processing](#maxim-multi-axis-mlp-for-image-processing-cvpr2022) | [Click Here](https://arxiv.org/pdf/2201.02973.pdf) | [Click Here](https://github.com/google-research/maxim) |
+| 2022 | CVPR | [Abandoning the Bayer-Filter to See in the Dark](#abandoning-the-bayer-filter-to-see-in-the-dark-cvpr2022) | [Click Here](https://arxiv.org/pdf/2203.04042.pdf) | [Click Here](https://github.com/TCL-AILab/Abandon_Bayer-Filter_See_in_the_Dark) |
+| 2022 | CVPR | [URetinex-Net: Retinex-based Deep Unfolding Network for Low-light-Image-Enhancement](#uretinex-net-retinex-based-deep-unfolding-network-for-low-light-image-enhancement-cvpr2022) | [Click Here](https://openaccess.thecvf.com/content/CVPR2022/papers/Wu_URetinex-Net_Retinex-Based_Deep_Unfolding_Network_for_Low-Light_Image_Enhancement_CVPR_2022_paper.pdf) | [Click Here](https://github.com/AndersonYong/URetinex-Net) |
+| 2022 | CVPR | [Toward Fast, Flexible, and Robust Low-Light Image Enhancement](#toward-fast-flexible-and-robust-low-light-image-enhancement-cvpr2022) | [Click Here](https://arxiv.org/pdf/2204.10137.pdf) | [Click Here](https://github.com/vis-opt-group/SCI) |
+| 2021 | CVPR | [Retinex-inspired Unrolling with Cooperative Prior Architecture Search for Low-light Image Enhancement](#retinex-inspired-unrolling-with-cooperative-prior-architecture-search-for-low-light-image-enhancement-cvpr2021) | [Click Here](https://arxiv.org/pdf/2012.05609.pdf) | [Click Here](https://github.com/KarelZhang/RUAS) |
+| 2020 | CVPR | [Learning to Restore Low-Light Images via Decomposition-and-Enhancement](#learning-to-restore-low-light-images-via-decomposition-and-enhancement-cvpr2020) | [Click Here](https://openaccess.thecvf.com/content_CVPR_2020/papers/Xu_Learning_to_Restore_Low-Light_Images_via_Decomposition-and-Enhancement_CVPR_2020_paper.pdf) | [Click Here](https://drive.google.com/drive/folders/1L3RDbd3sk_TcMTrSmZXn8KLg8opjOjf0) |
+| 2021 | CVPR | [Learning Temporal Consistency for Low Light Video Enhancement from Single Images](#learning-temporal-consistency-for-low-light-video-enhancement-from-single-images-cvpr2020) | [Click Here](https://openaccess.thecvf.com/content_CVPR_2020/papers/Xu_Learning_to_Restore_Low-Light_Images_via_Decomposition-and-Enhancement_CVPR_2020_paper.pdf) | [Click Here](https://github.com/zkawfanx/StableLLVE) |
+| 2020 | CVPR | [From Fidelity to Perceptual Quality: A Semi-Supervised Approach for Low-Light Image Enhancement](#from-fidelity-to-perceptual-quality-a-semi-supervised-approach-for-low-light-image-enhancement-cvpr2022) | [Click Here](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_From_Fidelity_to_Perceptual_Quality_A_Semi-Supervised_Approach_for_Low-Light_CVPR_2020_paper.pdf) | [Click Here](https://github.com/flyywh/CVPR-2020-Semi-Low-Light) |
 | 2022 | ICPR | [DocEnTr: An End-to-End Document Image Enhancement Transformer](#docentr-an-end-to-end-document-image-enhancement-transformer-icpr2022) | [Click Here](https://arxiv.org/pdf/2201.10252.pdf) | [Click Here](https://github.com/dali92002/DocEnTR)
 | 2023 | MDPI | Unsupervised Low Light Image Enhancement Transformer Based on Dual Contrastive Learning | [Click Here](https://bmvc2022.mpi-inf.mpg.de/0373.pdf) | [Click Here](https://github.com/KaedeKK/UDCL-Transformer)
 | 2023 | MDPI | Low-Light Image Enhancement by Combining Transformer and Convolutional Neural Network | [Click Here](https://www.mdpi.com/2227-7390/11/7/1657/pdf?version=1680159122) | [Click Here]
@@ -123,7 +124,7 @@
 </p>
 
 
-## MAXIM: Multi-Axis MLP for Image Processing CVPR2022
+## MAXIM Multi-Axis MLP for Image Processing CVPR2022
 
 **Method:** The proposed method in this paper is called MAXIM, which is a multi-axis MLP-based architecture for image processing tasks. MAXIM is designed to address the limitations of traditional convolutional neural networks (CNNs) in capturing global context and long-range dependencies in low-level vision tasks. It achieves this by using multi-axis MLP modules within each block to globally aggregate repeated patterns across various scales. MAXIM also incorporates self-attention mechanisms to capture long-range dependencies and efficiently mix local and global visual cues. Experimental results show that MAXIM outperforms state-of-the-art methods in various image restoration and enhancement tasks.
 
@@ -207,7 +208,7 @@ The proposed pipeline consists of three main stages: De-Bayer-Filter simulator, 
 </p>
 
 
-## URetinex-Net: Retinex-based Deep Unfolding Network for Low-light-Image-Enhancement CVPR2022
+## URetinex-Net Retinex-based Deep Unfolding Network for Low-light-Image-Enhancement CVPR2022
 
 **Method:** URetinex-Net is a deep learning-based method proposed for low-light image enhancement. It is based on the Retinex theory, which decomposes an image into reflectance and illumination layers. URetinex-Net adapts this decomposition process by formulating it as an implicit priors regularized model and then unfolding the update steps in the optimization into a deep neural network. 
 
@@ -229,12 +230,12 @@ URetinex-Net has shown to be highly efficient in enhancing low-light images with
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_URetinex-Net_Results.png" alt="URetinex-Net Results">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_URetinex-Net_Result.png" alt="URetinex-Net Results">
   <br>
   <em>URetinex-Net Results</em>
 </p>
 
-## Toward Fast, Flexible, and Robust Low-Light Image Enhancement CVPR2022
+## Toward Fast Flexible and Robust Low-Light Image Enhancement CVPR2022
 
 **Method:** The proposed method in this paper is called Self-Calibrated Illumination (SCI) and it is a framework for low-light image enhancement. The framework consists of two main components: a basic unit and an auxiliary process. 
 
@@ -293,7 +294,7 @@ The proposed method is based on the insight that low-light images suffer from tw
   <em>DaE Results</em>
 </p>
 
-## From Fidelity to Perceptual Quality: A Semi-Supervised Approach for Low-Light Image Enhancement CVPR 2020
+## From Fidelity to Perceptual Quality A Semi-Supervised Approach for Low-Light Image Enhancement CVPR 2020
 
 **Method:** The proposed method is a deep recursive band network (DRBN) for low-light image enhancement. It is a semi-supervised learning approach that can effectively address the visual degradation caused by under-exposure. The DRBN architecture consists of two stages. In the first stage, the network is trained on paired low/normal-light images to recover a linear band representation. This representation is then used in the second stage to bridge the gap between the restoration knowledge of paired data and the perceptual quality provided by an unpaired high-quality image dataset. The extracted band representations of the enhanced image in the first stage of DRBN are used to recursively refine the image in a coarse-to-fine manner. This approach can be trained with both paired and unpaired data, and it can extract a series of coarse-to-fine band representations that are mutually beneficial in a recursive process. Overall, the proposed method offers a powerful and flexible architecture for low-light image enhancement.
 
