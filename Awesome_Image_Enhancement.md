@@ -31,7 +31,6 @@
 | 2022 | IEEE Trans | twin adversarial contrastive learning for underwater image enhancement and beyond | [Click Here](https://drive.google.com/file/d/1rAQVj1RamqHI0OefUTnAeqV6vNFdAm0S/view) | [Click Here](https://github.com/Jzy2017/TACL) |
 |  |  |  | [Click Here]() | [Click Here]() |
 
--------------------------------------------------
 
 ## Learning a Simple Low-light Image Enhancer from Paired Low-light Instances CVPR2023
 
@@ -60,7 +59,6 @@
   <em>PairLIE Results</em>
 </p>
 
--------------------------------------------------
 
 ## Burstormer Burst Image Restoration and Enhancement Transformer CVPR2023
 
@@ -99,7 +97,6 @@
   <em>Grayscale and Color Burst Denoising</em>
 </p>
 
--------------------------------------------------
 
 ## SNR-Aware Low-light Image Enhancement CVPR2022
 
@@ -125,35 +122,27 @@
   <em>SNR-Aware Low-light Image Enhancement Results</em>
 </p>
 
--------------------------------------------------
 
 ## MAXIM: Multi-Axis MLP for Image Processing CVPR2022
 
--------------------------------------------------
 
 ## Abandoning the Bayer-Filter to See in the Dark CVPR2022
 
--------------------------------------------------
 
 ## URetinex-Net: Retinex-based Deep Unfolding Network for Low-light-Image-Enhancement CVPR2022
 
--------------------------------------------------
 
 ## Toward Fast, Flexible, and Robust Low-Light Image Enhancement CVPR2022
 
--------------------------------------------------
 
 ## Retinex-inspired Unrolling with Cooperative Prior Architecture Search for Low-light Image Enhancement CVPR2021
 
--------------------------------------------------
 
 ## Learning Temporal Consistency for Low Light Video Enhancement from Single Images CVPR2021
 
--------------------------------------------------
 
 ## From Fidelity to Perceptual Quality: A Semi-Supervised Approach for Low-Light Image Enhancement CVPR 2020
 
--------------------------------------------------
 
 ## Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement CVPR2020
 
@@ -175,7 +164,6 @@
   <em>Zero-DCE Results</em>
 </p>
 
-<br>
 ## Self-Reference Deep Adaptive Curve Estimation for Low-Light Image Enhancement
 
 **Method:** Self-DACE (Self-Reference Deep Adaptive Curve Estimation) is a 2-stage low-light image enhancement method proposed in this paper. The method is inspired by the ZeroDCE algorithm and employs a more flexible class of adaptive adjustment curves iteratively to enhance low-light images with a wider dynamic range. The first stage of the method estimates the initial enhancement curve using a self-reference mechanism, while the second stage refines the curve using a denoising scheme. The proposed method is shown to outperform existing state-of-the-art algorithms in terms of quantitative metrics on multiple datasets.
@@ -199,7 +187,6 @@
   <em>Self-DICE Results</em>
 </p>
 
--------------------------------------------------
 
 ## Learning Enriched Features for Fast Image Restoration and Enhancement IEEE2022
 
@@ -249,7 +236,6 @@ The proposed architecture is evaluated on several image restoration tasks, inclu
   <em>MIRNet-v2 Super Resolution</em>
 </p>
 
--------------------------------------------------
 
 ## Ultra-High-Definition Low-Light Image Enhancement A Benchmark and Transformer-Based Method AAAI2023
 
@@ -275,7 +261,6 @@ The proposed architecture is evaluated on several image restoration tasks, inclu
   <em>LLFormer Results</em>
 </p>
 
-<br>
 ## STAR A Structure-aware Lightweight Transformer for Real-time Image Enhancement ICCV2021
 
 **Method:** The article presents a method called STAR, which is a structure-aware lightweight Transformer for real-time image enhancement. It tokenizes image patches into token embeddings and explicitly learns token-wise dependencies for image patches. STAR is specialized in image enhancement tasks and can be free of stacked convolution, making it more efficient in extracting structural information. It employs a specialized two-branch design named long-short Range Transformer to ensure it can focus on capturing global contexts, thus reducing computations. Experimental results show that STAR can effectively boost the quality and efficiency of many tasks such as illumination enhancement, auto white balance, and photo retouching.
@@ -308,7 +293,6 @@ The proposed architecture is evaluated on several image restoration tasks, inclu
   <em>STAR PR Results</em>
 </p>
 
--------------------------------------------------
 
 ## DocEnTr An End-to-End Document Image Enhancement Transformer ICPR2022
 **Method:** The DocEnTr model is an end-to-end image enhancement approach that restores and enhances degraded document images. It is an encoder-decoder architecture based on vision transformers. 
@@ -329,7 +313,6 @@ The encoder and decoder are inspired by the vision transformer (ViT) architectur
   <em>DocEnTr Architecture</em>
 </p>
 
--------------------------------------------------
 
 ## You Only Need 90K Parameters to Adapt Light A Light Weight Transformer for Image Enhancement and Exposure Correction BMVC2022
 
