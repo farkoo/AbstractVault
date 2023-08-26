@@ -282,7 +282,7 @@ The method uses a siamese network architecture to train image pairs of original 
 **Hardware:**
 
 
-## Learning to Restore Low-Light Images via Decomposition-and-Enhancement
+## Learning to Restore Low-Light Images via Decomposition-and-Enhancement CVPR2020
 
 **Method:** The proposed method in this paper is a frequency-based decomposition-and-enhancement model for enhancing low-light images. The method consists of two stages. In the first stage, the model uses an Attention to Context Encoding (ACE) module to adaptively select low-frequency information for recovering the low-frequency layer and noise removal. In the second stage, the model selects high-frequency information for detail enhancement. The model also uses a Cross Domain Transformation (CDT) module to leverage multi-scale frequency-based features for noise suppression and detail enhancement in the two stages. 
 
@@ -305,7 +305,7 @@ The proposed method is based on the insight that low-light images suffer from tw
   <em>DaE Results</em>
 </p>
 
-## From Fidelity to Perceptual Quality A Semi-Supervised Approach for Low-Light Image Enhancement CVPR 2020
+## From Fidelity to Perceptual Quality A Semi-Supervised Approach for Low-Light Image Enhancement CVPR2020
 
 **Method:** The proposed method is a deep recursive band network (DRBN) for low-light image enhancement. It is a semi-supervised learning approach that can effectively address the visual degradation caused by under-exposure. The DRBN architecture consists of two stages. In the first stage, the network is trained on paired low/normal-light images to recover a linear band representation. This representation is then used in the second stage to bridge the gap between the restoration knowledge of paired data and the perceptual quality provided by an unpaired high-quality image dataset. The extracted band representations of the enhanced image in the first stage of DRBN are used to recursively refine the image in a coarse-to-fine manner. This approach can be trained with both paired and unpaired data, and it can extract a series of coarse-to-fine band representations that are mutually beneficial in a recursive process. Overall, the proposed method offers a powerful and flexible architecture for low-light image enhancement.
 
