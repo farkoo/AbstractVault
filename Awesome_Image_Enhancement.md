@@ -9,7 +9,6 @@
 | 2021 | CVPR | Retinex-inspired Unrolling with Cooperative Prior Architecture Search for Low-light Image Enhancement | [Click Here](https://arxiv.org/pdf/2012.05609.pdf) | [Click Here](https://github.com/KarelZhang/RUAS) || 2020 | CVPR | Learning to Restore Low-Light Images via Decomposition-and-Enhancement | [Click Here](https://openaccess.thecvf.com/content_CVPR_2020/papers/Xu_Learning_to_Restore_Low-Light_Images_via_Decomposition-and-Enhancement_CVPR_2020_paper.pdf) | [Click Here](https://drive.google.com/drive/folders/1L3RDbd3sk_TcMTrSmZXn8KLg8opjOjf0) |
 | 2021 | CVPR | Learning Temporal Consistency for Low Light Video Enhancement from Single Images | [Click Here](https://openaccess.thecvf.com/content_CVPR_2020/papers/Xu_Learning_to_Restore_Low-Light_Images_via_Decomposition-and-Enhancement_CVPR_2020_paper.pdf) | [Click Here](https://github.com/zkawfanx/StableLLVE) |
 | 2020 | CVPR | From Fidelity to Perceptual Quality: A Semi-Supervised Approach for Low-Light Image Enhancement | [Click Here](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_From_Fidelity_to_Perceptual_Quality_A_Semi-Supervised_Approach_for_Low-Light_CVPR_2020_paper.pdf) | [Click Here](https://github.com/flyywh/CVPR-2020-Semi-Low-Light) |
-
 | 2022 | ICPR | [DocEnTr: An End-to-End Document Image Enhancement Transformer](#docentr-an-end-to-end-document-image-enhancement-transformer-icpr2022) | [Click Here](https://arxiv.org/pdf/2201.10252.pdf) | [Click Here](https://github.com/dali92002/DocEnTR)
 | 2023 | MDPI | Unsupervised Low Light Image Enhancement Transformer Based on Dual Contrastive Learning | [Click Here](https://bmvc2022.mpi-inf.mpg.de/0373.pdf) | [Click Here](https://github.com/KaedeKK/UDCL-Transformer)
 | 2023 | MDPI | Low-Light Image Enhancement by Combining Transformer and Convolutional Neural Network | [Click Here](https://www.mdpi.com/2227-7390/11/7/1657/pdf?version=1680159122) | [Click Here]
@@ -32,7 +31,8 @@
 | 2022 | IEEE Trans | twin adversarial contrastive learning for underwater image enhancement and beyond | [Click Here](https://drive.google.com/file/d/1rAQVj1RamqHI0OefUTnAeqV6vNFdAm0S/view) | [Click Here](https://github.com/Jzy2017/TACL) |
 |  |  |  | [Click Here]() | [Click Here]() |
 
-<br />
+-------------------------------------------------
+
 ## Learning a Simple Low-light Image Enhancer from Paired Low-light Instances CVPR2023
 
 **Purpose:** The purpose of this paper is to introduce PairLIE, an unsupervised approach for low-light image enhancement that learns adaptive priors from low-light image pairs. The paper aims to improve contrast and restore details for images captured in low-light conditions.
@@ -60,7 +60,8 @@
   <em>PairLIE Results</em>
 </p>
 
-<br />
+-------------------------------------------------
+
 ## Burstormer Burst Image Restoration and Enhancement Transformer CVPR2023
 
 **Method:** Burstormer is a novel transformer-based architecture for burst image restoration and enhancement. It leverages multi-scale local and non-local features to achieve improved alignment and feature fusion. The proposed method consists of two main parts: enhanced deformable alignment (EDA) and image reconstruction. EDA is a multi-scale hierarchical module that extracts noise-free local and non-local features with the burst feature attention (BFA), performs feature alignment, and refines and consolidates features with an additional interaction with the base frame via the proposed reference-based feature enrichment (RBFE) module. The input burst frames need to be properly aligned before fusing their information. Therefore, the proposed alignment module not only aligns burst features but also exchanges feature information and maintains focused communication with the reference frame through the proposed reference-based feature enrichment mechanism, which facilitates handling complex motions. Burstormer sets new state-of-the-art on several real and synthetic benchmark datasets for the task of *burst super-resolution*, *burst low-light enhancement*, and *burst denoising*.
@@ -98,7 +99,8 @@
   <em>Grayscale and Color Burst Denoising</em>
 </p>
 
-<br />
+-------------------------------------------------
+
 ## SNR-Aware Low-light Image Enhancement CVPR2022
 
 **Method:** The SNR-Aware Low-light Image Enhancement method uses a signal-to-noise-aware framework consisting of a new SNR-aware transformer design and a convolutional model to adaptively enhance low-light images in a spatial-varying manner. The method first obtains an SNR map using a simple and yet effective strategy, which estimates the Signal-to-Noise Ratio (SNR) of the input low-light image. The SNR map is then used to guide the framework to learn different enhancement operations adaptively for image regions of varying signal-to-noise ratios. In the deepest hidden layer of the framework, a new self-attention module is used to enhance pixels in a spatial-varying manner and avoid inaccurate information from regions of very low SNR. The method has been shown to achieve superior perceptual quality and consistently outperform other approaches on seven benchmarks.
@@ -123,28 +125,36 @@
   <em>SNR-Aware Low-light Image Enhancement Results</em>
 </p>
 
-<br />
+-------------------------------------------------
+
 ## MAXIM: Multi-Axis MLP for Image Processing CVPR2022
 
-<br />
+-------------------------------------------------
+
 ## Abandoning the Bayer-Filter to See in the Dark CVPR2022
 
-<br />
+-------------------------------------------------
+
 ## URetinex-Net: Retinex-based Deep Unfolding Network for Low-light-Image-Enhancement CVPR2022
 
-<br />
+-------------------------------------------------
+
 ## Toward Fast, Flexible, and Robust Low-Light Image Enhancement CVPR2022
 
-<br />
+-------------------------------------------------
+
 ## Retinex-inspired Unrolling with Cooperative Prior Architecture Search for Low-light Image Enhancement CVPR2021
 
-<br />
+-------------------------------------------------
+
 ## Learning Temporal Consistency for Low Light Video Enhancement from Single Images CVPR2021
 
-<br />
+-------------------------------------------------
+
 ## From Fidelity to Perceptual Quality: A Semi-Supervised Approach for Low-Light Image Enhancement CVPR 2020
 
-<br />
+-------------------------------------------------
+
 ## Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement CVPR2020
 
 **Methos:** It does not require any paired or unpaired data in the training process, and it is trained without any reference image. Instead of performing image-to-image mapping, the task is reformulated as an image-specific curve estimation problem. The proposed method takes a low-light image as input and produces high-order curves as its output. These curves are then used for pixel-wise adjustment on the dynamic range of the input to obtain an enhanced image. The curve estimation is carefully formulated so that it maintains the range of the enhanced image and preserves the contrast of neighboring pixels.
@@ -189,7 +199,8 @@
   <em>Self-DICE Results</em>
 </p>
 
-<br />
+-------------------------------------------------
+
 ## Learning Enriched Features for Fast Image Restoration and Enhancement IEEE2022
 
 **Method:** The method presented in this paper is a new architecture for fast image restoration and enhancement. The proposed architecture is based on convolutional neural networks (CNNs) and is designed to maintain spatially-precise high-resolution representations while receiving complementary contextual information from low-resolution representations. 
@@ -238,7 +249,8 @@ The proposed architecture is evaluated on several image restoration tasks, inclu
   <em>MIRNet-v2 Super Resolution</em>
 </p>
 
-<br />
+-------------------------------------------------
+
 ## Ultra-High-Definition Low-Light Image Enhancement A Benchmark and Transformer-Based Method AAAI2023
 
 **Method:** LLFormer is a transformer-based low-light enhancement method introduced in this PDF file. It uses axis-based multi-head self-attention and cross-layer attention fusion blocks to significantly reduce linear complexity and improve performance on low-light images. LLFormer was benchmarked against 16 representative LLIE methods, including seven traditional non-learning methods, and was found to outperform state-of-the-art methods on both a new large-scale database and existing public datasets.
@@ -296,7 +308,8 @@ The proposed architecture is evaluated on several image restoration tasks, inclu
   <em>STAR PR Results</em>
 </p>
 
-<br />
+-------------------------------------------------
+
 ## DocEnTr An End-to-End Document Image Enhancement Transformer ICPR2022
 **Method:** The DocEnTr model is an end-to-end image enhancement approach that restores and enhances degraded document images. It is an encoder-decoder architecture based on vision transformers. 
 The input image is split into patches, which are linearly embedded, and the position information is added to them. The resulting sequence of vectors is fed to a standard Transformer encoder to obtain the latent representations. These representations are fed to another Transformer representing the decoder to obtain the decoded vector, which is linearly projected to vectors of pixels representing the output image patches. 
@@ -316,7 +329,8 @@ The encoder and decoder are inspired by the vision transformer (ViT) architectur
   <em>DocEnTr Architecture</em>
 </p>
 
-<br />
+-------------------------------------------------
+
 ## You Only Need 90K Parameters to Adapt Light A Light Weight Transformer for Image Enhancement and Exposure Correction BMVC2022
 
 **Method:** The proposed method is called the Illumination Adaptive Transformer (IAT). It is a lightweight transformer-based model that is designed to handle sRGB images directly, without the need for raw-RGB images. The IAT model consists of two branches: a local branch and a global branch. In the local branch, the input image is mapped to a latent feature space and the transformer's attention block is replaced with depth-wise convolution for a light-weight design. In the global branch, the transformer's attention queries are used to control and adjust the global ISP-related parameters, such as the color transform matrix and gamma value. The learned queries can dynamically change under different light conditions, such as over-exposure and under-exposure. The IAT model is evaluated on several real-world and synthetic datasets, and it shows promising results in improving both the visual appearance and recognition tasks under challenging real-world light conditions.
