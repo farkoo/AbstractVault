@@ -3,7 +3,7 @@
 [Link to the article](https://arxiv.org/abs/2103.14899)
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/CrossVit.png">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/CrossVit.png">
   <br>
   <em>Figure 1: CrossVit Architecture</em>
 </p>
@@ -20,7 +20,7 @@ The two branches of CrossViT are combined using a cross-attention mechanism, whi
 The authors also propose a simple yet effective token fusion scheme based on cross-attention, which is linear in both computation and memory to combine features at different scales. They compare this scheme to three other simple heuristic approaches and show that cross-attention achieves the best accuracy while being efficient for multi-scale feature fusion.
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/Multi-scale%20fusion.png" alt="Multi-scale Fusion">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/Multi-scale%20fusion.png" alt="Multi-scale Fusion">
   <br>
   <em>Figure 2: Multi-scale Fusion</em>
 </p>
