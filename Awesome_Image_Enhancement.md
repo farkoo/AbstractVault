@@ -50,13 +50,13 @@
 **Hardware:** Not mentioned
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_PairLIE_arch.png" alt="PairLIE Architecture">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_PairLIE_arch.png" alt="PairLIE Architecture">
   <br>
   <em>PairLIE Architecture</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_PairLIE_result.png" alt="PairLIE Architecture">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_PairLIE_result.png" alt="PairLIE Architecture">
   <br>
   <em>PairLIE Results</em>
 </p>
@@ -76,25 +76,25 @@
 **Hardware:**  Four RTX6000 GPU
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_Burstormer_Arch.png" alt="Burstormer Architecture">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_Burstormer_Arch.png" alt="Burstormer Architecture">
   <br>
   <em>Burstormer Architecture</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_Burstormer_SR.png" alt="Burstormer Super Resolution">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_Burstormer_SR.png" alt="Burstormer Super Resolution">
   <br>
   <em>Burstormer Super Resolution</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_Burstormer_LLIE.png" alt="Burstormer Low-Light Image Enhancement">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_Burstormer_LLIE.png" alt="Burstormer Low-Light Image Enhancement">
   <br>
   <em>Burstormer Low-Light Image Enhancement</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_Burstormer_DN.png" alt="Grayscale and Color Burst Denoising">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_Burstormer_DN.png" alt="Grayscale and Color Burst Denoising">
   <br>
   <em>Grayscale and Color Burst Denoising</em>
 </p>
@@ -115,13 +115,13 @@
 **Hardware:** It train and test it on a PC with a 2080Ti GPU
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_SNRAT_Arch.png" alt="SNR-Aware Low-light Image Enhancement Architecture">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_SNRAT_Arch.png" alt="SNR-Aware Low-light Image Enhancement Architecture">
   <br>
   <em>SNR-Aware Low-light Image Enhancement Architecture</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_SNRAT_Result.png" alt="SNR-Aware Low-light Image Enhancement Results">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_SNRAT_Result.png" alt="SNR-Aware Low-light Image Enhancement Results">
   <br>
   <em>SNR-Aware Low-light Image Enhancement Results</em>
 </p>
@@ -157,31 +157,31 @@ MAXIM is a generic architecture that can be used for a wide range of image proce
 **Hardware:** Not Mentioned
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_MAXIM_Arch.png" alt="MAXIM Architecture">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_MAXIM_Arch.png" alt="MAXIM Architecture">
   <br>
   <em>MAXIM Architecture</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_MAXIM_DB.png" alt="MAXIM Debluring">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_MAXIM_DB.png" alt="MAXIM Debluring">
   <br>
   <em>MAXIM Debluring</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_MAXIM_DN.png" alt="MAXIM Denoising">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_MAXIM_DN.png" alt="MAXIM Denoising">
   <br>
   <em>MAXIM Denoising</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_MAXIM_DR_DH.png" alt="MAXIM Deraining and Dehazing">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_MAXIM_DR_DH.png" alt="MAXIM Deraining and Dehazing">
   <br>
   <em>MAXIM Debluring</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_MAXIM_IE.png" alt="MAXIM Enhancement">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_MAXIM_IE.png" alt="MAXIM Enhancement">
   <br>
   <em>MAXIM Enhancement</em>
 </p>
@@ -199,13 +199,13 @@ The proposed pipeline consists of three main stages: De-Bayer-Filter simulator, 
 **Hardware:** One RTX 3090 GPU
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_DBLE_Arch.png" alt="DBLE Architecture">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_DBLE_Arch.png" alt="DBLE Architecture">
   <br>
   <em>DBLE Architecture</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_DBLE_Result.png" alt="DBLE Results">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_DBLE_Result.png" alt="DBLE Results">
   <br>
   <em>DBLE Results</em>
 </p>
@@ -227,13 +227,13 @@ URetinex-Net has shown to be highly efficient in enhancing low-light images with
 **Hardware:** NVIDIA Tesla V100 GPU
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_URetinex-Net_Arch.png" alt="URetinex-Net Architecture">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_URetinex-Net_Arch.png" alt="URetinex-Net Architecture">
   <br>
   <em>URetinex-Net Architecture</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_URetinex-Net_Result.png" alt="URetinex-Net Results">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_URetinex-Net_Result.png" alt="URetinex-Net Results">
   <br>
   <em>URetinex-Net Results</em>
 </p>
@@ -269,7 +269,7 @@ The calibration process involves estimating the illumination map of the input im
 **Hardware:** Single TITAN X GPU and Intel Core i7-7700 3.60GHz CPU
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_RUAS_Result.png" alt="RUAS Results">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_RUAS_Result.png" alt="RUAS Results">
   <br>
   <em>RUAS Results</em>
 </p>
@@ -297,13 +297,13 @@ The proposed method is based on the insight that low-light images suffer from tw
 **Hardware:** An i7 4GHz CPU and a GTX 1080Ti GPU
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_DaE_Arch.png" alt="DaE Architecture">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_DaE_Arch.png" alt="DaE Architecture">
   <br>
   <em>DaE Architecture</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_DaE_Result.png" alt="DaE Results">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_DaE_Result.png" alt="DaE Results">
   <br>
   <em>DaE Results</em>
 </p>
@@ -318,13 +318,13 @@ The proposed method is based on the insight that low-light images suffer from tw
 **Hardware:** Not Mentioned 
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_DaE_Arch.png" alt="DaE Architecture">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_DRBN_Arch.png" alt="DaE Architecture">
   <br>
   <em>DaE Architecture</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_DaE_Result.png" alt="DaE Results">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_DRBN_Result.png" alt="DaE Results">
   <br>
   <em>DaE Results</em>
 </p>
@@ -338,13 +338,13 @@ The proposed method is based on the insight that low-light images suffer from tw
 **Hardware:** One NVIDIA 2080Ti GPU
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_Zero_DCE_Arch.png" alt="Zero-DCE Architecture">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_Zero_DCE_Arch.png" alt="Zero-DCE Architecture">
   <br>
   <em>Zero-DCE Architecture</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_Zero_DCE_Result.png" alt="Zero-DCE Results">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_Zero_DCE_Result.png" alt="Zero-DCE Results">
   <br>
   <em>Zero-DCE Results</em>
 </p>
@@ -361,13 +361,13 @@ The proposed method is based on the insight that low-light images suffer from tw
 **Hardware:** One NVIDIA RTX 3080-TiGPU
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_Self_DICE_Arch.png" alt="Self-DICE Architecture">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_Self_DICE_Arch.png" alt="Self-DICE Architecture">
   <br>
   <em>Self-DICE Architecture</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_Self_DICE_Result.png" alt="Self-DICE Results">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_Self_DICE_Result.png" alt="Self-DICE Results">
   <br>
   <em>Self-DICE Results</em>
 </p>
@@ -392,31 +392,31 @@ The proposed architecture is evaluated on several image restoration tasks, inclu
 **Hardware:** Not Mentioned
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_MIRNet-v2_Arch.png" alt="MIRNet-v2 Architecture">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_MIRNet-v2_Arch.png" alt="MIRNet-v2 Architecture">
   <br>
   <em>MIRNet-v2 Architecture</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_MIRNet-v2_Deblurring.png" alt="MIRNet-v2 Deblurring">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_MIRNet-v2_Deblurring.png" alt="MIRNet-v2 Deblurring">
   <br>
   <em>MIRNet-v2 Deblurring</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_MIRNet-v2_Deblurring.png" alt="MIRNet-v2 Denoising">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_MIRNet-v2_Deblurring.png" alt="MIRNet-v2 Denoising">
   <br>
   <em>MIRNet-v2 Denoising</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_MIRNet-v2_LLIE.png" alt="MIRNet-v2 Low-Light Image Enhancement">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_MIRNet-v2_LLIE.png" alt="MIRNet-v2 Low-Light Image Enhancement">
   <br>
   <em>MIRNet-v2 Low-Light Image Enhancement</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_MIRNet-v2_SR.png" alt="MIRNet-v2 Super Resolution">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_MIRNet-v2_SR.png" alt="MIRNet-v2 Super Resolution">
   <br>
   <em>MIRNet-v2 Super Resolution</em>
 </p>
@@ -435,13 +435,13 @@ The proposed architecture is evaluated on several image restoration tasks, inclu
 **Hardware:** Not Mentioned
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_LLFormer_Arch.png" alt="LLFormer Architecture">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_LLFormer_Arch.png" alt="LLFormer Architecture">
   <br>
   <em>LLFormer Architecture</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_LLFormer_Result.png" alt="LLFormer Results">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_LLFormer_Result.png" alt="LLFormer Results">
   <br>
   <em>LLFormer Results</em>
 </p>
@@ -461,19 +461,19 @@ The proposed architecture is evaluated on several image restoration tasks, inclu
 2. Nvidia 1080 Ti GPU with 11GB memory and Intel Xeon 6126
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_STAR_Arch.png" alt="STAR Architecture">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_STAR_Arch.png" alt="STAR Architecture">
   <br>
   <em>STAR Architecture</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_STAR_IE.png" alt="STAR IE Results">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_STAR_IE.png" alt="STAR IE Results">
   <br>
   <em>STAR IE Results</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_STAR_PR.png" alt="STAR PR Results">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_STAR_PR.png" alt="STAR PR Results">
   <br>
   <em>STAR PR Results</em>
 </p>
@@ -493,7 +493,7 @@ The encoder and decoder are inspired by the vision transformer (ViT) architectur
 **Hardware:** Not Mentioned
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_DocEnTr_Arch.png" alt="DocEnTr Architecture">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_DocEnTr_Arch.png" alt="DocEnTr Architecture">
   <br>
   <em>DocEnTr Architecture</em>
 </p>
@@ -514,30 +514,30 @@ The encoder and decoder are inspired by the vision transformer (ViT) architectur
 **Hardware:** One GeForce RTX 3090 GPU
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_IAT_Arch.png" alt="IAT Architecture">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_IAT_Arch.png" alt="IAT Architecture">
   <br>
   <em>IAT Architecture</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_IAT_IE.png" alt="IAT Image Enhancement Results">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_IAT_IE.png" alt="IAT Image Enhancement Results">
   <br>
   <em>IAT Image Enhancement Results</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_IAT_EC.png" alt="IAT Exposure Correction Results">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_IAT_EC.png" alt="IAT Exposure Correction Results">
   <br>
   <em>IAT Exposure Correction Results</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/IE_IAT_EC.png" alt="IAT  low-light detection, low-light semantic segmentation and various light detection Results">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/IE_IAT_EC.png" alt="IAT  low-light detection, low-light semantic segmentation and various light detection Results">
   <br>
   <em>IAT  low-light detection, low-light semantic segmentation and various light detection Results</em>
 </p>
 
-
+### Traditional Methods
 * Histogram Equalization and Adaptive Histogram Equalization (AHE)
 * Contrast Enhancement Techniques
 * Image Fusion
