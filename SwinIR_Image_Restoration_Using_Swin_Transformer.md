@@ -4,7 +4,7 @@
 
 ## SwinIR Architecture
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/SwinIR_Architecture.png">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/SwinIR_Architecture.png">
   <br>
   <em>Figure 1: SwinIR Architecture</em>
 </p>
@@ -23,7 +23,7 @@ The image reconstruction part of SwinIR is responsible for generating a high-qua
 The shallow feature F0 and the deep feature FDF are concatenated and passed through the reconstruction module, which is responsible for producing the final high-quality image. The reconstruction module is specific to each image restoration task, such as super-resolution or denoising.
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/Residual%20Swin%20Transformer%20Block.png">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/Residual%20Swin%20Transformer%20Block.png">
   <br>
   <em>Figure 2: Residual Swin Transformer Block</em>
 </p>
@@ -35,7 +35,7 @@ The residual connection in the RSTB allows the module to capture the residual in
 
 ## Ablation Study 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/SwinIR_Ablation.png">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/SwinIR_Ablation.png">
   <br>
   <em>Figure 3: Ablation Study</em>
 </p>
