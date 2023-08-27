@@ -7,7 +7,7 @@ PET image reconstruction is the process of creating a 3D image of the distributi
 The overall architecture of the residual swin-transformer based regularizer (RSTR) consists of a residual block with a Swin Transformer Layer (STL) and two convolutional layers. The RSTR is used as a regularizer in the ML-EM iterative framework to reconstruct standard-dose images from low count sinograms.
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/TransEM_architecture.png">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/TransEM_architecture.png">
 </p>
 
 ### Maximum Likelihood Expectation Maximization (ML-EM)
@@ -27,13 +27,13 @@ The proposed method for PET image reconstruction is composed of n blocks, where 
 ## Experiments
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/TransEM_1.png">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/TransEM_1.png">
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/TransEM_2.png">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/TransEM_2.png">
 </p>
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/TransEM_3.png">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/TransEM_3.png">
 </p>
