@@ -14,24 +14,24 @@
 | 2020 | CVPR | [Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement](#zero-reference-deep-curve-estimation-for-low-light-image-enhancement-cvpr2020) | [Click Here](https://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_Zero-Reference_Deep_Curve_Estimation_for_Low-Light_Image_Enhancement_CVPR_2020_paper.pdf) | [Click Here](https://github.com/Li-Chongyi/Zero-DCE) |
 | 2020 | CVPR | [Learning to Restore Low-Light Images via Decomposition-and-Enhancement](#learning-to-restore-low-light-images-via-decomposition-and-enhancement-cvpr2020) | [Click Here](https://openaccess.thecvf.com/content_CVPR_2020/papers/Xu_Learning_to_Restore_Low-Light_Images_via_Decomposition-and-Enhancement_CVPR_2020_paper.pdf) | [Click Here](https://drive.google.com/drive/folders/1L3RDbd3sk_TcMTrSmZXn8KLg8opjOjf0) |
 | 2020 | CVPR | [From Fidelity to Perceptual Quality: A Semi-Supervised Approach for Low-Light Image Enhancement](#from-fidelity-to-perceptual-quality-a-semi-supervised-approach-for-low-light-image-enhancement-cvpr2020) | [Click Here](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_From_Fidelity_to_Perceptual_Quality_A_Semi-Supervised_Approach_for_Low-Light_CVPR_2020_paper.pdf) | [Click Here](https://github.com/flyywh/CVPR-2020-Semi-Low-Light) |
-| 2023 | MDPI | Unsupervised Low Light Image Enhancement Transformer Based on Dual Contrastive Learning | [Click Here](https://bmvc2022.mpi-inf.mpg.de/0373.pdf) | [Click Here](https://github.com/KaedeKK/UDCL-Transformer)
 | 2023 | AAAI  | [Ultra-High-Definition Low-Light Image Enhancement: A Benchmark and Transformer-Based Method](#ultra-high-definition-low-light-image-enhancement-a-benchmark-and-transformer-based-method-aaai2023) | [Click Here](https://arxiv.org/pdf/2212.11548) | [Click Here](https://github.com/TaoWangzj/LLFormer) |
 | 2023 | Arxiv | [Self-Reference Deep Adaptive Curve Estimation for Low-Light Image Enhancement](#self-reference-deep-adaptive-curve-estimation-for-low-light-image-enhancement) | [Click Here](https://arxiv.org/pdf/2308.08197v2.pdf) | [Click Here](https://github.com/john-venti/self-dace) |
 | 2022 | ICPR | [DocEnTr: An End-to-End Document Image Enhancement Transformer](#docentr-an-end-to-end-document-image-enhancement-transformer-icpr2022) | [Click Here](https://arxiv.org/pdf/2201.10252.pdf) | [Click Here](https://github.com/dali92002/DocEnTR)
-| 2022 | IEEE Trans | U-shape Transformer for Underwater Image Enhancement | [Click Here](https://arxiv.org/pdf/2111.11843) | [Click Here](https://github.com/LintaoPeng/U-shape_Transformer_for_Underwater_Image_Enhancement) |
 | 2022 | IEEE Trans(TPAMI ) | [Learning Enriched Features for Fast Image Restoration and Enhancement](#learning-enriched-features-for-fast-image-restoration-and-enhancement-ieee2022) | [Click Here](https://arxiv.org/pdf/2205.01649) | [Click Here](https://github.com/swz30/MIRNetv2) |
 | 2022 | IEEE Trans | twin adversarial contrastive learning for underwater image enhancement and beyond | [Click Here](https://drive.google.com/file/d/1rAQVj1RamqHI0OefUTnAeqV6vNFdAm0S/view) | [Click Here](https://github.com/Jzy2017/TACL) |
 | 2022 | BMVC | [You Only Need 90K Parameters to Adapt Light: A Light Weight Transformer for Image Enhancement and Exposure Correction](#you-only-need-90k-parameters-to-adapt-light-a-light-weight-transformer-for-image-enhancement-and-exposure-correction-bmvc2022) | [Click Here](https://arxiv.org/pdf/2205.14871) | [Click Here](https://github.com/cuiziteng/Illumination-Adaptive-Transformer) |
 | 2021 | ICCV | [STAR: A Structure-aware Lightweight Transformer for Real-time Image Enhancement](#star-a-structure-aware-lightweight-transformer-for-real-time-image-enhancement-iccv2021) | [Click Here](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_STAR_A_Structure-Aware_Lightweight_Transformer_for_Real-Time_Image_Enhancement_ICCV_2021_paper.pdf) | [Click Here](https://github.com/zzyfd/STAR-pytorch) |
 | 2021 | IEEE Trans | underwater image enhancement via medium transmission-guided multi-color space embedding | [Click Here](https://arxiv.org/pdf/2104.13015.pdf) | [Click Here](https://github.com/Li-Chongyi/Ucolor) |
 | 2023 | MDPI | Low-Light Image Enhancement by Combining Transformer and Convolutional Neural Network | [Click Here](https://www.mdpi.com/2227-7390/11/7/1657/pdf?version=1680159122) | [Click Here]
+| 2023 | MDPI | Unsupervised Low Light Image Enhancement Transformer Based on Dual Contrastive Learning | [Click Here](https://bmvc2022.mpi-inf.mpg.de/0373.pdf) | [Click Here](https://github.com/KaedeKK/UDCL-Transformer)
+| 2022 | IEEE Trans | U-shape Transformer for Underwater Image Enhancement | [Click Here](https://arxiv.org/pdf/2111.11843) | [Click Here](https://github.com/LintaoPeng/U-shape_Transformer_for_Underwater_Image_Enhancement) |
 | 2022 | CoRR | Low-Light Image and Video Enhancement: A Comprehensive Survey and Beyond | [Click Here](https://arxiv.org/pdf/2212.10772.pdf) | [Click Here] |
 | 2021 | Springer | Benchmarking Low-Light Image Enhancement and Beyond | [Click Here](https://sci-hub.se/10.1007/s11263-020-01418-8) | [Click Here] |
 | 2021 | IEEE Trans | Low-Light Image and Video Enhancement Using Deep Learning: A Survey | [Click Here](https://arxiv.org/pdf/2104.10729) | [Click Here] |
 | 2022 | IEEE Trans | Underwater Image Enhancement via Minimal Color Loss and Locally Adaptive Contrast Enhancement | [Click Here](https://drive.google.com/file/d/1d8gLKDPoxISy6-oVc6bQJZ-sElmNDPbB/view) | [Click Here]() |
 | 2020 | ECCV | Learning Enriched Features for Real Image Restoration and Enhancement | [Click Here](https://arxiv.org/pdf/2003.06792v2.pdf) | [Click Here](https://github.com/swz30/MIRNet) |
 
-|  |  |  | [Click Here]() | [Click Here]() |
+<!--- |  |  |  | [Click Here]() | [Click Here]() | -->
 
 
 ## Learning a Simple Low-light Image Enhancer from Paired Low-light Instances CVPR2023
@@ -45,7 +45,7 @@
 
 **Datasets:**
 * SICE (part2)
-*  LOL (training set)
+* LOL (training set)
 
 **Hardware:** Not mentioned
 
@@ -104,6 +104,8 @@
 
 **Method:** The SNR-Aware Low-light Image Enhancement method uses a signal-to-noise-aware framework consisting of a new SNR-aware transformer design and a convolutional model to adaptively enhance low-light images in a spatial-varying manner. The method first obtains an SNR map using a simple and yet effective strategy, which estimates the Signal-to-Noise Ratio (SNR) of the input low-light image. The SNR map is then used to guide the framework to learn different enhancement operations adaptively for image regions of varying signal-to-noise ratios. In the deepest hidden layer of the framework, a new self-attention module is used to enhance pixels in a spatial-varying manner and avoid inaccurate information from regions of very low SNR. The method has been shown to achieve superior perceptual quality and consistently outperform other approaches on seven benchmarks.
 
+- Transformer, a signal-to-noise ratio aware transformer for LLIE
+  
 **Dataset:**
 * LOL
 * SID
@@ -536,5 +538,13 @@ The encoder and decoder are inspired by the vision transformer (ViT) architectur
 </p>
 
 
-
+* Histogram Equalization and Adaptive Histogram Equalization (AHE)
+* Contrast Enhancement Techniques
+* Image Fusion
+* Dehazing Techniques
+* Noise Reduction
+* Retinex-based Methods
+* Super-Resolution Techniques
+* Color Correction
+* Adaptive Filtering Techniques
 
