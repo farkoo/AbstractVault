@@ -11,7 +11,7 @@ The encoder extracts features from the input image, the bottleneck further compr
 ## Architecture overview
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/Swin-Unet%20Architecture.png">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/Swin-Unet%20Architecture.png">
   <br>
   <em>Figure 1: Swin-Unet Architecture</em>
 </p>
@@ -29,7 +29,7 @@ The decoder in Swin-Unet is based on the U-Net architecture, which is a popular 
 ## Swin Transformer block
 
 <p align="center">
-  <img src="https://github.com/farkoo/AbstractVault/blob/master/Swin%20Transformer%20Block.png">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/Swin%20Transformer%20Block.png">
   <br>
   <em>Figure 2: Swin Transformer Block</em>
 </p>
