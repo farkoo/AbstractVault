@@ -333,7 +333,13 @@ The proposed method is based on the insight that low-light images suffer from tw
 
 **Methos:** It does not require any paired or unpaired data in the training process, and it is trained without any reference image. Instead of performing image-to-image mapping, the task is reformulated as an image-specific curve estimation problem. The proposed method takes a low-light image as input and produces high-order curves as its output. These curves are then used for pixel-wise adjustment on the dynamic range of the input to obtain an enhanced image. The curve estimation is carefully formulated so that it maintains the range of the enhanced image and preserves the contrast of neighboring pixels.
 
-**Datasets:** 360 multi-exposure sequences from the Part1 of SICE dataset
+**Datasets:** 
+* NPE
+* LIME
+* MEF
+* DICM
+* VV
+*360 multi-exposure sequences from the Part1 of SICE dataset
 
 **Hardware:** One NVIDIA 2080Ti GPU
 
