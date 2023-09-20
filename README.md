@@ -24,6 +24,7 @@ The GitHub repository features a [Awesome Image Enhancement](https://github.com/
 * [SwinIR: Image Restoration Using Swin Transformer](https://github.com/farkoo/AbstractVault/blob/master/SwinIR_Image_Restoration_Using_Swin_Transformer.md)
 * [ColonFormer: An Efficient Transformer-based Method for Colon Polyp Segmentation](https://github.com/farkoo/AbstractVault/blob/master/ColonFormer_An_Efficient_Transformer_based_Method_for_Colon_Polyp_Segmentation.md)
 * [TransEM: Residual Swin-Transformer based regularized PET image reconstruction](https://github.com/farkoo/AbstractVault/blob/master/TransEM_Residual_Swin-Transformer_based_regularized_PET_image_reconstruction.md)
+* [Zero-DCE: Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement](https://github.com/farkoo/AbstractVault/blob/master/Zero-Reference%20Deep%20Curve%20Estimation%20for%20Low-Light%20Image%20Enhancement.md)
 * Completing...
 
 
