@@ -7,8 +7,7 @@
 | 3 | 10 September 2023 | Elsevier | Attention-based dual-color space fusion network for low-light image enhancement | PSNR, SSIM, FSIM, MSE, LPIPS, BRISQUE, ENTROPY | EFF, FFM, JED, SDD, DLN, KinD, DUPE, ENGAN, Zero-DCE |
 | 4 | 16 September 2023 | MDPI | DBENet: Dual-Branch Brightness Enhancement Fusion Network for Low-Light Image Enhancement | MAE, PSNR, SSIM, LPIPS, NIQE | HE, Tone Mapping, RUAS, Retinex-Net, SCI, Zero-DCE, RRDNet |
 | 5 | 13 September 2023 | Arxive | DEFormer: DCT-driven Enhancement Transformer for Low-light Image and Dark Vision | PSNR, SSIM, Param. FLOPs | RetinexNet, MBLLEN, KinD, Zero-DCE, ExCNet, EnlightenGAN, DSLR, IAT, UFormer, Restormer, LLFormer, PairLIE |
-| 6 | 22 September 2023 | IEEE ICIP | DLEN: DEEP LAPLACIAN ENHANCEMENT NETWORKS FOR LOW-LIGHT IMAGES
- | PSNR, SSIM, Param., FLOPs, Runtime | RetinexNet, MBLLEN, KinD, EnGAN, Zero-DCE, DRBN, MSEC, DSLR, SNR-net |
+| 6 | 22 September 2023 | IEEE ICIP | DLEN: DEEP LAPLACIAN ENHANCEMENT NETWORKS FOR LOW-LIGHT IMAGES | PSNR, SSIM, Param., FLOPs, Runtime | RetinexNet, MBLLEN, KinD, EnGAN, Zero-DCE, DRBN, MSEC, DSLR, SNR-net |
 | 7 | 15 September 2023 | Arxive | Double Domain Guided Real-Time Low-Light Image Enhancement for Ultra High-Definition Transportation Surveillance | PSNR, SSIM, NIQE, PIQE, LPIPS | HE, NPE, LIME, JIEP, CRM, Dong, BIMEF, DeHz, RetinexNet, MBLLEN, KinD, EnlightenGAN, DLN, Zero-DCE, StableLLVE, RUAS, LLFlow, MTRBNet, SCI|
 | 8 | 22 September 2023 | IEEE ICIP | ELEGAN: AN EFFICIENT LOW LIGHT ENHANCEMENT GAN FOR UNPAIRED SUPERVISION | PIQE, BRISQUE, NIQE, NLIEE | SCI, URetinexNet, EnlightenGAN, UNE |
 | 9 | 22 September 2023 | IEEE | Exploiting_the_Illumination_Knowledge_in_Real_World_for_Low-Light_Image_Enhancement | PSNR, SSIM | KinD, EG, SS-LLIE, Zero-DCE |
