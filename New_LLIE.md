@@ -1,8 +1,8 @@
 # New LLIE
 
-| # | Year |	Proceeding	| Title | Metrics | Methods |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | 21 August 2023 | Springer | A novel low complexity retinex‑based algorithm for enhancing low‑light images | BRISQE, NIQE | MSRCP, NPE, SRIE, RBMP |
+| # | Year |	Proceeding	| Title | Metrics | Methods | Methodology
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 1 | 21 August 2023 | Springer | A novel low complexity retinex‑based algorithm for enhancing low‑light images | BRISQE, NIQE | MSRCP, NPE, SRIE, RBMP | blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah |
 | 2 | 8 September 2023 | MDPI | A Survey of Deep Learning-Based Low-Light Image Enhancement | | |
 | 3 | 10 September 2023 | Elsevier | Attention-based dual-color space fusion network for low-light image enhancement | PSNR, SSIM, FSIM, MSE, LPIPS, BRISQUE, ENTROPY | EFF, FFM, JED, SDD, DLN, KinD, DUPE, ENGAN, Zero-DCE |
 | 4 | 16 September 2023 | MDPI | DBENet: Dual-Branch Brightness Enhancement Fusion Network for Low-Light Image Enhancement | MAE, PSNR, SSIM, LPIPS, NIQE | HE, Tone Mapping, RUAS, Retinex-Net, SCI, Zero-DCE, RRDNet |
