@@ -46,15 +46,40 @@ In the approach, a plain CNN is utilized, comprising seven convolutional layers 
 1. Spatial Consistency Loss:
 This loss encourages the network to maintain spatial consistency in the enhanced image. It ensures that the relative positions of objects and details are preserved during enhancement.
 
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/Zero-DCE%20Spatial%20Loss.png">
+  <br>
+  <em>Figure 3: Total Loss </em>
+</p>
+
 2. Exposure Control Loss:
 Exposure control loss helps in adjusting the brightness and exposure of the enhanced image, ensuring that it is visually pleasing and maintains appropriate lighting levels.
+
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/Zero-DCE%20Exposure%20Loss.png">
+  <br>
+  <em>Figure 3: Total Loss </em>
+</p>
 
 3. Color Constancy Loss:
 Color constancy loss helps maintain consistent colors in the enhanced image, reducing color shifts that can occur during enhancement.
 
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/Zero-DCE%20Color%20Constancy%20Loss.png">
+  <br>
+  <em>Figure 3: Total Loss </em>
+</p>
+
 4. Illumination Smoothness Loss:
 This loss encourages the illumination map estimated by the DCE-Net to be smooth and continuous, reducing artifacts and improving the overall quality of the enhanced image.
 
+<p align="center">
+  <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/Zero-DCE%20Illumination%20Smoothness%20Loss.png">
+  <br>
+  <em>Figure 3: Total Loss </em>
+</p>
+
+**Total Loss:**
 <p align="center">
   <img src="https://github.com/farkoo/AbstractVault/blob/master/Images/Zero-DCE%20loss.png">
   <br>
