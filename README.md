@@ -25,6 +25,7 @@ The GitHub repository features a [Awesome Image Enhancement](https://github.com/
 * [ColonFormer: An Efficient Transformer-based Method for Colon Polyp Segmentation](https://github.com/farkoo/AbstractVault/blob/master/ColonFormer_An_Efficient_Transformer_based_Method_for_Colon_Polyp_Segmentation.md)
 * [TransEM: Residual Swin-Transformer based regularized PET image reconstruction](https://github.com/farkoo/AbstractVault/blob/master/TransEM_Residual_Swin-Transformer_based_regularized_PET_image_reconstruction.md)
 * [Zero-DCE: Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement](https://github.com/farkoo/AbstractVault/blob/master/Zero-Reference%20Deep%20Curve%20Estimation%20for%20Low-Light%20Image%20Enhancement.md)
+* [Learning a Simple Low-light Image Enhancer from Paired Low-light Instances](https://github.com/farkoo/AbstractVault/blob/master/Learning_a_Simple_Low-light_Image_Enhancer_from_Paired_Low-light_Instances.md)
 * Completing...
 
 
